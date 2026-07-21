@@ -1,0 +1,4971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vitota Pharmaceuticals | Home Page</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+overflow-x:hidden;
+background:#031d71;
+}
+
+/* COLORS */
+
+:root{
+--blue:#032B69;
+--green:#1bad3f;
+--light:#F5F9FF;
+}
+
+/* TOPBAR */
+
+.topbar{
+background:var(--blue);
+padding:5px 0;
+color:rgb(4, 64, 155);
+font-size:16px;
+}
+
+
+
+.topbar i{
+color:var(--blue);
+}
+
+/* NAVBAR */
+
+.navbar{
+background:rgb(255, 255, 255);
+padding:16px 0;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+font-size:40px;
+font-weight:600;
+color:var(--blue)!important;
+}
+
+.navbar-brand h6{
+font-size:15px;
+font-weight:600;
+color:var(--blue)!important;
+margin:0;
+letter-spacing:1px;
+
+
+}
+
+.nav-link{
+font-weight:600;
+font-size:15px;
+color:var(--blue)!important;
+margin:0 12px;
+transition:.4s;
+}
+
+.nav-link:hover{
+color:var(--blue)!important;
+}
+
+.btn-main{
+background:var(--blue);
+color:rgb(76, 190, 137);
+padding:14px 45px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+transition:.0s;
+}
+
+.btn-main:hover{
+background:var(--green);
+color:rgb(9, 52, 116);
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(135deg,#a6b4e4,#eaedee);
+padding:120px 0;
+position:relative;
+overflow:hidden;
+}
+
+.hero::before{
+content:'';
+position:absolute;
+width:400px;
+height:400px;
+background:#2e8ff056;
+border-radius:50%;
+top:-150px;
+right:-100px;
+}
+
+.hero::after{
+content:'';
+position:absolute;
+width:350px;
+height:350px;
+background:#032B6910;
+border-radius:50%;
+bottom:-150px;
+left:-120px;
+}
+
+.hero h4{
+font-size:22px;
+color:var(--BLUE);
+font-weight:700;
+letter-spacing:1px;
+color:var(--blue);
+}
+
+.hero h1{
+font-size:55px;
+font-weight:800;
+line-height:1;
+color:var(--green);
+}
+
+.hero span{
+color:var(--green);
+}
+
+.hero p{
+font-size:15px;
+line-height:1;
+color:#01080e;
+}
+
+.hero-box{
+
+background:rgba(84, 153, 199, 0.445);
+padding:40px;
+border-radius:35px;
+box-shadow:0 20px 50px rgba(0, 0, 0, 0.562);
+
+}
+
+.hero-icon{
+
+width:110px;
+height:110px;
+background:var(--blue);
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+
+}
+
+.hero-icon i{
+
+font-size:55px;
+color:rgb(123, 204, 154);
+
+}
+
+.btn-outline-main{
+
+border:1px solid var(--blue);
+padding:12px 25px;
+border-radius:50px;
+font-weight:600;
+color:var(--blue);
+text-decoration:none;
+margin-left:10px;
+transition:.4s;
+
+}
+
+.btn-outline-main:hover{
+
+background:var(--blue);
+color:rgb(19, 201, 44);
+
+}
+
+</style>
+
+</head>
+
+<body>
+   
+
+
+
+<!-- TOPBAR -->
+
+
+
+
+<div class="marquee-box">
+    <div class="marquee-text">
+
+        🌿 Vitota Pharmaceuticals | Advancing Healthcare | Quality Medicines | Innovation & Trust 🌿
+    </div>
+</div>
+
+<style>
+   .marquee-box{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    white-space:nowrap;
+    position:relative;
+}
+
+/* LEFT & RIGHT "TUNNEL" EFFECT */
+.marquee-box::before,
+.marquee-box::after{
+    content:"";
+    position:absolute;
+    top:0;
+    width:40px;
+    height:200%;
+    z-index:2;
+    pointer-events:none;
+}
+
+/* LEFT DARK + GREEN GLOW */
+.marquee-box::before{
+    left:0;
+    background:linear-gradient(to right,
+        rgba(8, 41, 125, 0.831),
+        
+        transparent
+    );
+    
+}
+
+/* RIGHT DARK + GREEN GLOW */
+.marquee-box::after{
+    right:0;
+    background:linear-gradient(to left,
+        rgba(8, 41, 125, 0.831),
+      
+        transparent
+    );
+   
+}
+
+.marquee-text{
+    display:inline-block;
+    padding-left:100%;
+    animation:scrollText 12s linear infinite;
+    color:white;
+    text-shadow:0 0 10px #080556;
+}
+
+@keyframes scrollText{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+</style>
+
+
+
+<!-- NAVBAR -->
+ <div class="menu-toggle" onclick="openMenu()">
+    ☰
+</div>
+<div id="sideMenu" class="side-menu">
+
+    <span class="close-btn" onclick="closeMenu()"><</span>
+
+    <a href="VITOTA HOME PAGE FINAL.html">HOME</a>
+    <a href="ABOUT.HTML">ABOUT</a>
+    <a href="explore our product.html">PRODUCTS</a>
+    <a href="our service.html">SERVICES</a>
+    <a href="Quality page.html">QUALITY</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="GET IN TOUCH.html">GET IN TOUCH</a>
+
+</div>
+<style>.menu-toggle{
+    font-size:25px;
+    color:#84b5f8;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.side-menu{
+    position:fixed;
+    top:0;
+    left:-300px;
+    width:280px;
+    height:100%;
+    background:#032B69;
+    z-index:99999;
+    transition:.4s;
+    padding-top:80px;
+    box-shadow:5px 0 20px rgba(0,0,0,.3);
+}
+
+.side-menu a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:18px 30px;
+    font-size:18px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.side-menu a:hover{
+    background:#0aa60d;
+}
+
+.close-btn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    color:rgb(244, 241, 241);
+    font-size:35px;
+    cursor:pointer;
+}</style>
+<script>
+
+function openMenu(){
+    document.getElementById("sideMenu").style.left="0";
+}
+
+function closeMenu(){
+    document.getElementById("sideMenu").style.left="-300px";
+}
+
+</script>
+
+
+<nav class="navbar navbar-expand-lg sticky-top">
+
+<div class="container">
+
+
+
+   <div class="font-text">
+      
+<div class="logo">
+     
+    <img src="images/vitotalogo final.png" class="company-logo">
+ <a class="navbar-brand">
+    <div>
+       
+        <B>VITOTA</B>
+        <H6>PHARMACEUTICALS</H6>
+    
+    </div>
+     </a>
+</div>
+</div>
+<style>
+    .logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.company-logo{
+    width:130px;
+    height:100px;
+    object-fit:contain;
+    background: transparent;
+
+    
+
+    margin-left:0px;    /* Right ki taraf */
+    margin-right:0px;   /* Left ki taraf */
+    margin-top:-15px;     /* Neeche */
+    margin-bottom:-15px;  /* Upar */
+}
+
+</style>
+
+<button class="navbar-toggler"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav mx-auto">
+   
+
+<!--<li class="nav-item">
+<a class="nav-link">HOME</a>
+</li>-->
+
+
+<li class="nav-item">
+<a href="ABOUT.HTML" class="btn-outline-main">ABOUT</a>
+</li>
+
+<li class="nav-item">
+<a href="explore our product.html" class="btn-outline-main">PRODUCT</a>
+</li>
+
+<li class="nav-item">
+<a href="our service.html" class="btn-outline-main">SERVICES</a>
+</li>
+
+<li class="nav-item">
+   <a href="Quality page.html" class="btn-outline-main">QUALITY</a>
+</li>
+
+<li class="nav-item">
+<a href="contact.html" class="btn-outline-main">CONTACT</a>
+</li>
+<BR>
+</ul>
+<a href="GET IN TOUCH.html" class="btn-main">
+GET IN TOUCH
+</a>
+
+
+</div>
+
+</div>
+
+</nav>
+
+
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h4>
+
+WELCOME TO VITOTA PHARMACEUTICALS
+
+</h4>
+
+<h2>
+
+ Advancing Healthcare,
+ <h1>
+
+ Enriching Lives.
+
+</h2>
+</h1>
+
+<p class="mt-4">
+
+Delivering innovative and high-quality healthcare solutions with trust, excellence and innovation for a healthier tomorrow.
+
+</p>
+
+<div class="mt-5">
+
+<a href="explore our product.html" class="btn-main">
+
+EXPLORE PRODUCTS
+
+</a>
+
+<a href="our service.html" class="btn-outline-main">
+
+OUR SERVICES
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-6">
+
+<div class="hero-box text-center">
+
+<div class="hero-icon">
+
+<i class="fa-solid fa-capsules"></i>
+
+</div>
+
+<h2 class="mt-4 fw-bold text-primary">
+
+VITOTA PHARMACEUTICALS
+
+</h2>
+
+<p class="mt-3 text-muted">
+
+WHO-GMP Quality Standards<br>
+
+Third Party Manufacturing<br>
+
+PCD Pharma Franchise
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ===================================== -->
+<!-- PART 2 START (Paste below Part 1) -->
+<!-- ===================================== -->
+
+<style>
+
+/* STATS SECTION */
+
+.stats{
+padding:80px 0;
+background:#032B69;
+}
+
+.stat-card{
+text-align:center;
+color:white;
+}
+
+.stat-card h2{
+font-size:55px;
+font-weight:800;
+}
+
+.stat-card p{
+font-size:18px;
+opacity:.9;
+}
+
+
+/* ABOUT SECTION */
+
+.about{
+padding:120px 0;
+background:white;
+}
+
+.about-tag{
+color:#29C67A;
+font-weight:700;
+letter-spacing:1px;
+}
+
+.about h2{
+font-size:55px;
+font-weight:800;
+color:#032B69;
+line-height:1.2;
+}
+
+.about p{
+font-size:17px;
+line-height:1.9;
+color:#666;
+}
+
+.about-card{
+
+background:#F8FBFF;
+padding:30px;
+border-radius:25px;
+border:1px solid #e8eef9;
+transition:.4s;
+
+}
+
+.about-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.about-card i{
+
+font-size:45px;
+color:#29C67A;
+margin-bottom:20px;
+
+}
+
+.about-card h4{
+
+color:#032B69;
+font-weight:700;
+
+}
+
+</style>
+
+
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-3 col-md-6">
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="6">6+</h2>
+
+<p>Years Experience</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-3 col-md-6">
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="250">250+</h2>
+
+<p>Products</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-3 col-md-6">
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="50">50+</h2>
+
+<p>Business Partners</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-3 col-md-6">
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="1000">1000+</h2>
+
+<p>Happy Customers</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ABOUT US -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<span class="about-tag">
+
+<h3>ABOUT VITOTA</h3>
+
+</span>
+
+<h2 class="mt-3">
+
+Committed To Better 
+Healthcare For Everyone
+
+</h2>
+
+<p class="mt-4">
+
+Vitota Pharmaceuticals is dedicated to delivering innovative and high-quality healthcare solutions with excellence, trust and integrity. We focus on providing superior pharmaceutical products that improve lives and build healthier communities.
+
+</p>
+
+<p>
+
+Our commitment to quality, research and customer satisfaction has made us a trusted partner in the pharmaceutical industry. We strive to create value through innovation and ethical business practices.
+
+</p>
+
+<a href="ABOUT.HTML" class="btn-main mt-4">
+
+READ MORE
+
+</a>
+
+</div>
+
+
+<div class="col-lg-6">
+
+<div class="row g-4">
+
+<div class="col-md-6">
+
+<div class="about-card text-center">
+
+<i class="fa-solid fa-capsules"></i>
+
+<h4>
+
+Wide Product Range
+
+</h4>
+
+<p>
+
+Tablets, Capsules, Syrups, Injectables & Nutraceuticals.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-md-6">
+
+<div class="about-card text-center">
+
+<i class="fa-solid fa-award"></i>
+
+<h4>
+
+Premium Quality
+
+</h4>
+
+<p>
+
+Strict quality control and advanced manufacturing standards.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-md-6">
+
+<div class="about-card text-center">
+
+<i class="fa-solid fa-flask"></i>
+
+<h4>
+
+Innovation
+
+</h4>
+
+<p>
+
+Continuous research and development for better healthcare.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-md-6">
+
+<div class="about-card text-center">
+
+<i class="fa-solid fa-handshake"></i>
+
+<h4>
+
+Trusted Partnership
+
+</h4>
+
+<p>
+
+Reliable Third Party Manufacturing and PCD Franchise.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- PART 2 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 3 START (Paste below Part 2) -->
+<!-- ===================================== -->
+
+<style>
+
+/* PRODUCTS */
+
+.products{
+padding:120px 0;
+background:#F8FBFF;
+}
+
+.section-tag{
+color:#29C67A;
+font-weight:700;
+letter-spacing:1px;
+}
+
+.section-title{
+font-size:55px;
+font-weight:800;
+color:#032B69;
+}
+
+.product-card{
+
+background:rgba(255,255,255,.7);
+backdrop-filter:blur(15px);
+padding:40px 30px;
+border-radius:30px;
+border:1px solid rgba(255,255,255,.4);
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.5s;
+height:100%;
+
+}
+
+.product-card:hover{
+
+transform:translateY(-15px);
+
+}
+
+.product-icon{
+
+width:90px;
+height:90px;
+background:#032B69;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:25px;
+
+}
+
+.product-icon i{
+
+font-size:40px;
+color:white;
+
+}
+
+.product-card h4{
+
+color:#032B69;
+font-weight:700;
+
+}
+
+.product-card p{
+
+color:#666;
+line-height:1.8;
+
+}
+
+
+/* SERVICES */
+
+.services{
+
+padding:120px 0;
+background:white;
+
+}
+
+.service-card{
+
+background:#fff;
+padding:40px;
+border-radius:30px;
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+transition:.5s;
+height:100%;
+
+}
+
+.service-card:hover{
+
+background:#032B69;
+transform:translateY(-15px);
+
+}
+
+.service-card:hover h4,
+.service-card:hover p,
+.service-card:hover i{
+
+color:white;
+
+}
+
+.service-card i{
+
+font-size:55px;
+color:#29C67A;
+margin-bottom:25px;
+transition:.5s;
+
+}
+
+.service-card h4{
+
+font-weight:700;
+color:#032B69;
+transition:.5s;
+
+}
+
+.service-card p{
+
+color:#666;
+line-height:1.8;
+transition:.5s;
+
+}
+
+</style>
+
+
+
+<!-- PRODUCTS -->
+
+<section class="products">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<!--<div class="section-tag">
+OUR PRODUCTS
+</div>-->
+
+<h2 class="section-title mt-3">
+
+Comprehensive Product Portfolio
+
+</h2>
+
+</div>
+
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="product-card">
+
+<div class="product-icon">
+
+<i class="fa-solid fa-capsules"></i>
+
+</div>
+
+<h4>Tablets & Capsules</h4>
+
+<p>
+
+High quality formulations designed for effective treatment and patient care.
+
+</p>
+<a href="ABOUT.HTML" class="btn-outline-main">
+
+VIEW
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="product-card">
+
+<div class="product-icon">
+
+<i class="fa-solid fa-bottle-droplet"></i>
+
+</div>
+
+<h4>Syrups & Suspensions</h4>
+
+<p>
+
+Premium liquid formulations developed with advanced manufacturing processes.
+
+</p>
+<a href="ABOUT.HTML" class="btn-outline-main">
+
+VIEW
+
+</a>
+
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="product-card">
+
+<div class="product-icon">
+
+<i class="fa-solid fa-syringe"></i>
+
+</div>
+
+<h4>Injectables</h4>
+
+<p>
+
+Sterile and reliable injectable products maintaining global quality standards.
+
+</p>
+<a href="ABOUT.HTML" class="btn-outline-main">
+
+VIEW
+
+</a>
+
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="product-card">
+
+<div class="product-icon">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+</div>
+
+<h4>Nutraceuticals</h4>
+
+<p>
+
+Innovative healthcare supplements for overall wellness and vitality.
+
+</p>
+<a href="ABOUT.HTML" class="btn-outline-main">
+
+VIEW
+
+</a>
+
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="product-card">
+
+<div class="product-icon">
+
+<i class="fa-solid fa-leaf"></i>
+
+</div>
+
+<h4>Ayurvedic Range</h4>
+
+<p>
+
+Natural herbal solutions formulated using traditional and modern science.
+
+</p>
+<a href="ABOUT.HTML" class="btn-outline-main">
+
+VIEW
+
+</a>
+
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="product-card">
+
+<div class="product-icon">
+
+<i class="fa-solid fa-shield-heart"></i>
+
+</div>
+
+<h4>Personal Care</h4>
+
+<p>
+
+Premium skincare and wellness products suitable for daily use.
+
+</p>
+<a href="ABOUT.HTML" class="btn-outline-main">
+
+VIEW
+
+</a>
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- SERVICES -->
+
+<section class="services">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<!--<div class="section-tag">
+
+OUR SERVICES
+
+</div>-->
+
+<h2 class="section-title mt-3">
+
+Complete Pharma Business Solutions
+
+</h2>
+
+</div>
+
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="service-card">
+
+<i class="fa-solid fa-industry"></i>
+
+<h4>
+
+Third Party Manufacturing
+
+</h4>
+
+<p>
+
+Reliable and quality-driven manufacturing services with WHO-GMP standards.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="service-card">
+
+<i class="fa-solid fa-handshake"></i>
+
+<h4>
+
+PCD Pharma Franchise
+
+</h4>
+
+<p>
+
+Monopoly rights and marketing support for long-term business growth.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="service-card">
+
+<i class="fa-solid fa-building"></i>
+
+<h4>
+
+Contract Manufacturing
+
+</h4>
+
+<p>
+
+Customized formulations and packaging solutions for healthcare brands.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- PART 3 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 4 START (Paste below Part 3) -->
+<!-- ===================================== -->
+
+<style>
+
+/* WHY CHOOSE US */
+
+.why-us{
+padding:120px 0;
+background:linear-gradient(135deg,#ffffff,#f8fbff);
+}
+
+.why-card{
+
+background:white;
+padding:35px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.5s;
+height:100%;
+
+}
+
+.why-card:hover{
+
+transform:translateY(-12px);
+
+}
+
+.why-icon{
+
+width:85px;
+height:85px;
+background:#032B69;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:25px;
+
+}
+
+.why-icon i{
+
+font-size:35px;
+color:white;
+
+}
+
+.why-card h4{
+
+font-weight:700;
+color:#032B69;
+
+}
+
+.why-card p{
+
+line-height:1.8;
+color:#666;
+
+}
+
+
+
+/* QUALITY */
+
+.quality{
+
+padding:120px 0;
+background:#032B69;
+
+}
+
+.quality h2{
+
+font-size:55px;
+font-weight:800;
+color:white;
+
+}
+
+.quality p{
+
+color:#ddd;
+line-height:1.9;
+
+}
+
+.progress{
+
+height:14px;
+border-radius:50px;
+overflow:hidden;
+background:#fff;
+
+}
+
+.progress-bar{
+
+background:#29C67A;
+
+}
+
+.quality-box{
+
+background:rgba(255,255,255,.08);
+padding:40px;
+border-radius:30px;
+backdrop-filter:blur(15px);
+
+}
+
+</style>
+
+
+
+
+<!-- WHY CHOOSE US -->
+
+<!--<section class="why-us">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<div class="section-tag">
+
+WHY CHOOSE US
+
+</div>
+
+<h2 class="section-title mt-3">
+
+Trusted Healthcare Partner
+
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="why-card">
+
+<div class="why-icon">
+
+<i class="fa-solid fa-award"></i>
+
+</div>
+
+<h4>Premium Quality</h4>
+
+<p>
+
+Every product is manufactured under strict quality standards to ensure safety and effectiveness.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="why-card">
+
+<div class="why-icon">
+
+<i class="fa-solid fa-flask"></i>
+
+</div>
+
+<h4>Research & Innovation</h4>
+
+<p>
+
+Continuous research and development help us deliver advanced healthcare solutions.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="why-card">
+
+<div class="why-icon">
+
+<i class="fa-solid fa-handshake"></i>
+
+</div>
+
+<h4>Trusted Partnership</h4>
+
+<p>
+
+Building long-term business relationships through integrity and customer satisfaction.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="why-card">
+
+<div class="why-icon">
+
+<i class="fa-solid fa-certificate"></i>
+
+</div>
+
+<h4>WHO-GMP Standards</h4>
+
+<p>
+
+Manufacturing processes comply with internationally accepted quality norms.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="why-card">
+
+<div class="why-icon">
+
+<i class="fa-solid fa-truck-fast"></i>
+
+</div>
+
+<h4>Timely Delivery</h4>
+
+<p>
+
+Efficient logistics ensure quick and reliable delivery across India.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="why-card">
+
+<div class="why-icon">
+
+<i class="fa-solid fa-users"></i>
+
+</div>
+
+<h4>Customer Satisfaction</h4>
+
+<p>
+
+Our focus remains on providing exceptional service and healthcare solutions.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>-->
+
+
+
+
+
+<!-- QUALITY ASSURANCE -->
+
+<section class="quality">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h2>
+
+Quality Assurance
+
+</h2>
+
+<p class="mt-4">
+
+Vitota Pharmaceuticals follows strict quality control procedures and modern manufacturing practices to ensure every product meets international standards.
+
+</p>
+
+<div class="mt-5">
+
+<h6 class="text-white">
+
+Manufacturing Excellence
+
+</h6>
+
+<div class="progress mt-3">
+
+<div class="progress-bar" style="width:98%"></div>
+
+</div>
+
+
+<h6 class="text-white mt-4">
+
+Customer Satisfaction
+
+</h6>
+
+<div class="progress mt-3">
+
+<div class="progress-bar" style="width:99%"></div>
+
+</div>
+
+
+<h6 class="text-white mt-4">
+
+Research & Development
+
+</h6>
+
+<div class="progress mt-3">
+
+<div class="progress-bar" style="width:95%"></div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-6">
+
+<div class="quality-box">
+
+<h3 class="text-white fw-bold">
+
+Committed To Excellence
+
+</h3>
+
+<p class="mt-4">
+
+✔ WHO-GMP Standard Manufacturing</p>
+
+<p>✔ Advanced Quality Control Systems</p>
+
+<p>✔ Ethical Business Practices</p>
+
+<p>✔ Reliable Supply Chain</p>
+
+<p>✔ Experienced Professional Team</p>
+
+<p>✔ Innovative Product Development</p>
+
+<p>✔ Customer-Focused Approach</p>
+
+<p>✔ Sustainable Healthcare Solutions</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- PART 4 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 5 START (Paste below Part 4) -->
+<!-- ===================================== -->
+
+<style>
+
+/* CERTIFICATIONS */
+
+.certifications{
+padding:120px 0;
+background:#F8FBFF;
+}
+
+.cert-card{
+
+background:white;
+padding:40px;
+border-radius:30px;
+text-align:center;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.5s;
+height:100%;
+
+}
+
+.cert-card:hover{
+
+transform:translateY(-12px);
+
+}
+
+.cert-card i{
+
+font-size:60px;
+color:#29C67A;
+margin-bottom:25px;
+
+}
+
+.cert-card h4{
+
+color:#032B69;
+font-weight:700;
+
+}
+
+
+
+/* PROCESS */
+
+.process{
+
+padding:120px 0;
+background:white;
+
+}
+
+.process-box{
+
+padding:40px;
+border-radius:30px;
+background:#fff;
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+height:100%;
+transition:.5s;
+
+}
+
+.process-box:hover{
+
+transform:translateY(-12px);
+
+}
+
+.process-number{
+
+width:70px;
+height:70px;
+background:#032B69;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:28px;
+font-weight:700;
+margin-bottom:25px;
+
+}
+
+
+
+/* ACHIEVEMENTS */
+
+.achievement{
+
+padding:120px 0;
+background:#032B69;
+
+}
+
+.achievement-card{
+
+background:rgba(255,255,255,.08);
+padding:40px;
+border-radius:30px;
+text-align:center;
+backdrop-filter:blur(10px);
+
+}
+
+.achievement-card i{
+
+font-size:55px;
+color:#29C67A;
+margin-bottom:20px;
+
+}
+
+.achievement-card h2{
+
+font-size:50px;
+font-weight:800;
+color:white;
+
+}
+
+.achievement-card p{
+
+color:#ddd;
+
+}
+
+</style>
+
+
+
+<!-- CERTIFICATIONS -->
+
+<section class="certifications">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<div class="section-tag">
+CERTIFICATIONS
+</div>
+
+<h2 class="section-title mt-3">
+
+International Quality Standards
+
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="cert-card">
+
+<i class="fa-solid fa-certificate"></i>
+
+<h4>WHO-GMP Certified</h4>
+
+<p class="mt-3">
+
+Manufactured under strict quality standards ensuring safety and efficacy.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="cert-card">
+
+<i class="fa-solid fa-microscope"></i>
+
+<h4>Quality Tested</h4>
+
+<p class="mt-3">
+
+Advanced testing procedures for reliable and premium products.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="cert-card">
+
+<i class="fa-solid fa-shield-heart"></i>
+
+<h4>Trusted Healthcare</h4>
+
+<p class="mt-3">
+
+Committed to excellence and patient well-being.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- MANUFACTURING PROCESS -->
+
+<!--<section class="process">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<div class="section-tag">
+
+MANUFACTURING PROCESS
+
+</div>
+
+<h2 class="section-title mt-3">
+
+Our Working Process
+
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-3">
+
+<div class="process-box">
+
+<div class="process-number">
+
+1
+
+</div>
+
+<h4>Research</h4>
+
+<p class="mt-3">
+
+Innovative research and development of formulations.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-3">
+
+<div class="process-box">
+
+<div class="process-number">
+
+2
+
+</div>
+
+<h4>Manufacturing</h4>
+
+<p class="mt-3">
+
+Advanced production facilities with quality control.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-3">
+
+<div class="process-box">
+
+<div class="process-number">
+
+3
+
+</div>
+
+<h4>Testing</h4>
+
+<p class="mt-3">
+
+Rigorous testing to ensure safety and effectiveness.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-3">
+
+<div class="process-box">
+
+<div class="process-number">
+
+4
+
+</div>
+
+<h4>Distribution</h4>
+
+<p class="mt-3">
+
+Timely and efficient delivery across markets.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>-->
+
+
+
+
+
+<!-- ===================================== -->
+<!-- PART 5 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 6 START (Paste below Part 5) -->
+<!-- ===================================== -->
+
+<style>
+
+/* PARTNER SECTION */
+
+.partner{
+padding:120px 0;
+background:#F8FBFF;
+}
+
+.partner-box{
+
+background:linear-gradient(135deg,#032B69,#0A4AA5);
+padding:70px;
+border-radius:35px;
+color:white;
+box-shadow:0 20px 50px rgba(0,0,0,.15);
+
+}
+
+.partner-box h2{
+
+font-size:55px;
+font-weight:800;
+
+}
+
+.partner-box p{
+
+color:#ddd;
+line-height:1.9;
+
+}
+
+.partner-btn{
+
+background:#29C67A;
+color:white;
+padding:15px 40px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+transition:.5s;
+
+}
+
+.partner-btn:hover{
+
+background:white;
+color:#032B69;
+
+}
+
+
+/* TESTIMONIALS */
+
+.testimonials{
+
+padding:120px 0;
+background:white;
+
+}
+
+.testimonial-card{
+
+background:#fff;
+padding:45px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+height:100%;
+transition:.5s;
+
+}
+
+.testimonial-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.quote-icon{
+
+font-size:50px;
+color:#29C67A;
+margin-bottom:25px;
+
+}
+
+.client{
+
+display:flex;
+align-items:center;
+margin-top:30px;
+
+}
+
+.client-icon{
+
+width:70px;
+height:70px;
+border-radius:50%;
+background:#032B69;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+font-size:28px;
+font-weight:700;
+margin-right:20px;
+
+}
+
+.client h5{
+
+font-weight:700;
+color:#032B69;
+
+}
+
+.client p{
+
+margin:0;
+color:#666;
+
+}
+
+</style>
+
+
+
+<!-- PARTNER SECTION -->
+
+<section class="partner">
+
+<div class="container">
+
+<div class="partner-box text-center">
+
+<h2>
+
+Become Our Business Partner
+
+</h2>
+
+<p class="mt-4">
+
+Join hands with Vitota Pharmaceuticals and grow your healthcare business with trusted products, monopoly rights and complete marketing support.
+
+</p>
+
+<div class="mt-5">
+
+<a href="#" class="partner-btn">
+
+START BUSINESS WITH US
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<div class="section-tag">
+
+TESTIMONIALS
+
+</div>
+
+<h2 class="section-title mt-3">
+
+What Our Clients Say
+
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="testimonial-card">
+
+<div class="quote-icon">
+
+<i class="fa-solid fa-quote-left"></i>
+
+</div>
+
+<p>
+
+Vitota Pharmaceuticals provides excellent product quality and outstanding customer support. Highly recommended.
+
+</p>
+
+<div class="client">
+
+<div class="client-icon">
+
+A
+
+</div>
+
+<div>
+
+<h5>
+
+Dr. Sumaira Hussain
+
+</h5>
+
+<p>
+
+Healthcare Professional
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="col-lg-4">
+
+<div class="testimonial-card">
+
+<div class="quote-icon">
+
+<i class="fa-solid fa-quote-left"></i>
+
+</div>
+
+<p>
+
+Reliable third party manufacturing services with timely delivery and premium packaging.
+
+</p>
+
+<div class="client">
+
+<div class="client-icon">
+
+R
+
+</div>
+
+<div>
+
+<h5>
+
+Anas Hussain
+
+</h5>
+
+<p>
+
+Distributor Partner
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="col-lg-4">
+
+<div class="testimonial-card">
+
+<div class="quote-icon">
+
+<i class="fa-solid fa-quote-left"></i>
+
+</div>
+
+<p>
+
+Professional team and high quality formulations. Great experience working with Vitota.
+
+</p>
+
+<div class="client">
+
+<div class="client-icon">
+
+S
+
+</div>
+
+<div>
+
+<h5>
+
+Mohammad Shahmir Hussain
+
+</h5>
+
+<p>
+
+Medical Practitioner
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- PART 6 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 7 START (Paste below Part 6) -->
+<!-- ===================================== -->
+
+<style>
+
+/* FAQ SECTION */
+
+.faq{
+padding:120px 0;
+background:#F8FBFF;
+}
+
+.accordion-item{
+border:none;
+margin-bottom:20px;
+border-radius:20px !important;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.accordion-button{
+font-weight:700;
+color:#032B69;
+padding:25px;
+background:white;
+}
+
+.accordion-button:not(.collapsed){
+background:#032B69;
+color:white;
+}
+
+.accordion-body{
+padding:25px;
+line-height:1.9;
+color:#666;
+}
+
+
+/* CONTACT */
+
+.contact{
+padding:120px 0;
+background:white;
+}
+
+.contact-card{
+
+background:#fff;
+padding:40px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+height:100%;
+transition:.5s;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.contact-card i{
+
+font-size:55px;
+color:#29C67A;
+margin-bottom:20px;
+
+}
+
+.contact-card h4{
+
+font-weight:700;
+color:#032B69;
+
+}
+
+.contact-card p{
+
+color:#666;
+line-height:1.9;
+
+}
+
+
+/* NEWSLETTER */
+
+.newsletter{
+
+padding:100px 0;
+background:linear-gradient(135deg,#032B69,#0A4AA5);
+color:white;
+
+}
+
+.news-box{
+
+max-width:800px;
+margin:auto;
+text-align:center;
+
+}
+
+.news-box h2{
+
+font-size:55px;
+font-weight:800;
+
+}
+
+.news-input{
+
+height:65px;
+border:none;
+border-radius:50px;
+padding-left:25px;
+
+}
+
+.news-btn{
+
+background:#29C67A;
+border:none;
+height:65px;
+padding:0 40px;
+border-radius:50px;
+color:white;
+font-weight:700;
+
+}
+
+</style>
+
+
+
+<!-- FAQ SECTION -->
+
+<section class="faq">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<div class="section-tag">
+FAQ
+</div>
+
+<h2 class="section-title mt-3">
+Frequently Asked Questions
+</h2>
+
+</div>
+
+
+<div class="accordion" id="faqAccordion">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button"
+data-bs-toggle="collapse"
+data-bs-target="#faq1">
+
+Do you provide Third Party Manufacturing?
+
+</button>
+
+</h2>
+
+<div id="faq1"
+class="accordion-collapse collapse show"
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Yes, Vitota Pharmaceuticals offers premium quality third party manufacturing services.
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed"
+data-bs-toggle="collapse"
+data-bs-target="#faq2">
+
+Do you provide PCD Pharma Franchise?
+
+</button>
+
+</h2>
+
+<div id="faq2"
+class="accordion-collapse collapse"
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Yes, we provide monopoly based PCD Pharma Franchise opportunities across India.
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed"
+data-bs-toggle="collapse"
+data-bs-target="#faq3">
+
+Are your products WHO-GMP certified?
+
+</button>
+
+</h2>
+
+<div id="faq3"
+class="accordion-collapse collapse"
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Our products are manufactured under strict quality standards with WHO-GMP compliance.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<!--<div class="section-tag">
+
+CONTACT US
+
+</div>-->
+
+<h2 class="section-title mt-3">
+
+CONTACT US
+
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="contact-card text-center">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<h4>Address</h4>
+
+<p>
+
+Janta Nagar Colony Phase 3,<br>
+Karond, Bhopal, Madhya Pradesh - 462038
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="contact-card text-center">
+
+<i class="fa-solid fa-phone"></i>
+
+<h4>Call Us</h4>
+
+<p>
+
++0755-4587300
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="contact-card text-center">
+
+<i class="fa-solid fa-envelope"></i>
+
+<h4>Email Us</h4>
+
+<p>
+
+vitotapharmaceuticals@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- NEWSLETTER -->
+
+<section class="newsletter">
+
+<div class="container">
+
+<div class="news-box">
+
+<h2>
+
+Subscribe For Latest Updates
+
+</h2>
+
+<p class="mt-4">
+
+Stay connected with Vitota Pharmaceuticals for latest products and healthcare innovations.
+
+</p>
+
+<div class="row mt-5">
+
+<div class="col-md-8">
+
+<input type="email","contact"
+class="form-control news-input"
+placeholder="Enter Phone or Email">
+
+</div>
+
+<div class="col-md-4">
+
+<button class="news-btn w-100">
+
+SUBSCRIBE
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- PART 7 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 8 START (Paste below Part 7) -->
+<!-- ===================================== -->
+
+<style>
+
+/* FOOTER */
+
+.footer{
+background:#021E4A;
+padding-top:100px;
+color:white;
+}
+
+.footer h4{
+font-weight:700;
+margin-bottom:25px;
+}
+
+.footer p{
+color:#d8d8d8;
+line-height:1.9;
+}
+
+.footer ul{
+list-style:none;
+padding:0;
+}
+
+.footer ul li{
+margin-bottom:15px;
+}
+
+.footer ul li a{
+text-decoration:none;
+color:#d8d8d8;
+transition:.4s;
+}
+
+.footer ul li a:hover{
+color:#29C67A;
+padding-left:8px;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons a{
+
+width:50px;
+height:50px;
+background:rgba(255,255,255,.08);
+display:inline-flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+margin-right:10px;
+color:white;
+font-size:20px;
+text-decoration:none;
+transition:.5s;
+
+}
+
+.social-icons a:hover{
+
+background:#29C67A;
+transform:translateY(-8px);
+
+}
+
+
+/* COPYRIGHT */
+
+.copyright{
+
+border-top:1px solid rgba(255,255,255,.1);
+padding:25px 0;
+margin-top:60px;
+text-align:center;
+color:#ccc;
+
+}
+
+
+/* WHATSAPP BUTTON */
+
+.whatsapp{
+
+position:fixed;
+right:25px;
+bottom:30px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:32px;
+color:white;
+text-decoration:none;
+z-index:999;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+
+/* BACK TO TOP */
+
+.top-btn{
+
+position:fixed;
+left:25px;
+bottom:30px;
+width:60px;
+height:60px;
+background:#032B69;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:25px;
+color:white;
+text-decoration:none;
+z-index:999;
+
+}
+
+</style>
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-4">
+
+<h4>
+
+VITOTA PHARMACEUTICALS
+
+</h4>
+
+<p>
+
+"Advancing Healthcare, Enriching Lives."<br>
+
+Vitota Pharmaceuticals is committed to delivering quality healthcare solutions with innovation, trust and excellence.
+
+</p>
+
+<div class="social-icons mt-4">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="https://www.instagram.com/edit_by_shahmir/"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+
+
+
+<div class="col-lg-2">
+
+<h4>
+
+Quick Links
+
+</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="explore our product.html">Products</a></li>
+
+<li><a href="our services.html">Services</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+
+
+</ul>
+
+</div>
+
+
+
+
+<!--<div class="col-lg-3">
+
+<h4>
+
+Products
+
+</h4>
+
+<ul>
+
+<li><a href="#">Tablets</a></li>
+
+<li><a href="#">Capsules</a></li>
+
+<li><a href="#">Syrups</a></li>
+
+<li><a href="#">Injectables</a></li>
+
+<li><a href="#">Nutraceuticals</a></li>
+
+</ul>
+
+</div>-->
+
+
+
+<div class="col-lg-3">
+
+<h4>
+
+Contact Info
+
+</h4>
+
+<p>
+
+<B> Global Headquarters</B><BR>
+DAMAC Business Tower - 901 9<SUP>th </SUP>Floor Business Bay - DUBAI, UAE
+
+<br>
+<br>
+
+ <B>India Headquarters</B><BR>
+Bengaluru, Karnataka, India</B><br>
+ <br>
+
+
+</p>
+
+<p>
+
++971 58 599 8958  (DUBAI, UAE)
+<BR>
+0755-4587300  (INDIA)
+
+</p>
+
+<p>
+
+✉ vitotapharmaceuticals@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="footer-bottom">
+    <p align="center">
+    © 2026 VITOTA PHARMACEUTICALS. All Rights Reserved.
+    <BR>
+         Digital Partner : <a href="images/amir and madhuri pic.jpg">Vitota Technologies </a>
+         
+</div></p>
+
+</div>
+
+</footer>
+
+
+
+<!-- WHATSAPP BUTTON -->
+
+<a href="https://wa.me/919301464253"
+class="whatsapp">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+
+
+<!-- BACK TO TOP -->
+
+<a href="#"
+class="top-btn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</a>
+
+<!-- ===================================== -->
+<!-- PART 8 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 9 START (Paste below Part 8) -->
+<!-- ===================================== -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+/* ==========================
+   COUNTER ANIMATION
+========================== */
+
+const counters = document.querySelectorAll('.counter');
+
+const speed = 100;
+
+counters.forEach(counter => {
+
+function updateCount(){
+
+const target = +counter.getAttribute('data-target');
+
+const count = +counter.innerText;
+
+const increment = Math.ceil(target / speed);
+
+if(count < target){
+
+counter.innerText = count + increment;
+
+setTimeout(updateCount,10);
+
+}
+else{
+
+counter.innerText = target + "+";
+
+}
+
+}
+
+updateCount();
+
+});
+
+
+
+/* ==========================
+   NAVBAR SHADOW
+========================== */
+
+window.addEventListener("scroll",function(){
+
+const navbar=document.querySelector(".navbar");
+
+navbar.classList.toggle("shadow",window.scrollY>30);
+
+});
+
+
+
+/* ==========================
+   BACK TO TOP BUTTON
+========================== */
+
+document.querySelector(".top-btn").addEventListener("click",function(e){
+
+e.preventDefault();
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+});
+
+
+
+/* ==========================
+   SMOOTH SCROLL
+========================== */
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+
+anchor.addEventListener("click",function(e){
+
+e.preventDefault();
+
+document.querySelector(this.getAttribute("href")).scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+});
+
+});
+
+
+
+/* ==========================
+   WHATSAPP BUTTON ANIMATION
+========================== */
+
+setInterval(()=>{
+
+document.querySelector(".whatsapp").animate([
+
+{transform:'scale(1)'},
+
+{transform:'scale(1.15)'},
+
+{transform:'scale(1)'}
+
+],{
+
+duration:1000
+
+});
+
+},2000);
+
+
+
+/* ==========================
+   FADE IN ANIMATION
+========================== */
+
+const observer = new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity=1;
+
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+document.querySelectorAll("section").forEach(section=>{
+
+section.style.opacity=0;
+
+section.style.transform="translateY(50px)";
+
+section.style.transition="all .8s ease";
+
+observer.observe(section);
+
+});
+
+
+
+/* ==========================
+   TYPING EFFECT
+========================== */
+
+const text = "Inspired by Science, Dedicated to Life.";
+
+let i=0;
+
+function typing(){
+
+if(i<text.length){
+
+document.title += text.charAt(i);
+
+i++;
+
+setTimeout(typing,80);
+
+}
+
+}
+
+// typing();
+
+
+
+/* ==========================
+   LOADER EFFECT
+========================== */
+
+window.onload=function(){
+
+document.body.style.opacity="1";
+
+}
+
+document.body.style.opacity="0";
+
+document.body.style.transition="1s";
+
+
+
+</script>
+
+</body>
+</html>
+
+<!-- ===================================== -->
+<!-- PART 9 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 10 START (Ultra Premium Upgrade) -->
+<!-- Paste below Part 9 -->
+<!-- ===================================== -->
+
+<style>
+
+/* SCROLL PROGRESS BAR */
+
+.progress-bar-top{
+position:fixed;
+top:0;
+left:0;
+width:0%;
+height:4px;
+background:linear-gradient(90deg,#29C67A,#00E1FF);
+z-index:99999;
+}
+
+
+/* FLOATING BACKGROUND ICONS */
+
+.bg-icon{
+position:absolute;
+opacity:.05;
+animation:floatIcon 8s ease-in-out infinite;
+}
+
+.bg-icon i{
+font-size:80px;
+color:#032B69;
+}
+
+.icon1{
+top:15%;
+left:5%;
+}
+
+.icon2{
+top:30%;
+right:8%;
+}
+
+.icon3{
+bottom:15%;
+left:12%;
+}
+
+@keyframes floatIcon{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-25px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+
+/* GLASS NAVBAR */
+
+.navbar{
+
+backdrop-filter:blur(15px);
+
+}
+
+
+/* HERO BUTTON EFFECT */
+
+.btn-main{
+
+position:relative;
+overflow:hidden;
+
+}
+
+.btn-main::before{
+
+content:'';
+position:absolute;
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+background:rgba(255,255,255,.2);
+transition:.8s;
+
+}
+
+.btn-main:hover::before{
+
+left:100%;
+
+}
+
+
+/* CARD HOVER EFFECT */
+
+.product-card,
+.service-card,
+.why-card,
+.cert-card,
+.process-box,
+.testimonial-card{
+
+transition:.6s;
+
+}
+
+.product-card:hover,
+.service-card:hover,
+.why-card:hover,
+.cert-card:hover,
+.process-box:hover,
+.testimonial-card:hover{
+
+transform:translateY(-15px) scale(1.02);
+
+}
+
+
+/* GLOW EFFECT */
+
+.hero h1{
+
+text-shadow:0 0 30px rgba(41,198,122,.2);
+
+}
+
+</style>
+
+
+
+<!-- SCROLL PROGRESS BAR -->
+
+<div class="progress-bar-top"></div>
+
+
+
+<!-- FLOATING ICONS -->
+
+<div class="bg-icon icon1">
+
+<i class="fa-solid fa-capsules"></i>
+
+</div>
+
+<div class="bg-icon icon2">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+</div>
+
+<div class="bg-icon icon3">
+
+<i class="fa-solid fa-flask"></i>
+
+</div>
+
+
+
+<script>
+
+/* SCROLL PROGRESS BAR */
+
+window.addEventListener('scroll',()=>{
+
+let winScroll=document.body.scrollTop||document.documentElement.scrollTop;
+
+let height=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+
+let scrolled=(winScroll/height)*100;
+
+document.querySelector(".progress-bar-top").style.width=scrolled+"%";
+
+});
+
+
+/* BUTTON RIPPLE EFFECT */
+
+document.querySelectorAll('.btn-main').forEach(btn=>{
+
+btn.addEventListener('mouseenter',()=>{
+
+btn.style.boxShadow="0 0 30px rgba(41,198,122,.5)";
+
+});
+
+btn.addEventListener('mouseleave',()=>{
+
+btn.style.boxShadow="none";
+
+});
+
+});
+
+
+/* TITLE ANIMATION */
+
+const titles=document.querySelectorAll(".section-title");
+
+const titleObserver=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.animate([
+
+{opacity:0,transform:'translateY(40px)'},
+
+{opacity:1,transform:'translateY(0px)'}
+
+],{
+
+duration:800,
+
+fill:'forwards'
+
+});
+
+}
+
+});
+
+});
+
+titles.forEach(title=>{
+
+titleObserver.observe(title);
+
+});
+
+
+/* AUTO YEAR */
+
+document.querySelector(".copyright").innerHTML=
+"© "+new Date().getFullYear(10)+" VITOTA PHARMACEUTICALS. All Rights Reserved.";
+
+   
+
+</script>
+
+<!-- ===================================== -->
+<!-- PART 10 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 11 START (Ultra Premium Features) -->
+<!-- Paste below Part 10 -->
+<!-- ===================================== -->
+
+<style>
+
+/* DARK MODE BUTTON */
+
+.dark-toggle{
+position:fixed;
+right:25px;
+top:120px;
+width:55px;
+height:55px;
+background:#032B69;
+color:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+z-index:9999;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+
+/* DARK MODE */
+
+.dark-mode{
+background:#071426!important;
+color:white!important;
+}
+
+.dark-mode section{
+background:#071426!important;
+}
+
+.dark-mode .product-card,
+.dark-mode .service-card,
+.dark-mode .why-card,
+.dark-mode .cert-card,
+.dark-mode .process-box,
+.dark-mode .testimonial-card,
+.dark-mode .about-card,
+.dark-mode .contact-card{
+
+background:#10203A!important;
+color:white!important;
+
+}
+
+.dark-mode p{
+color:#ddd!important;
+}
+
+
+/* PRELOADER */
+
+.loader{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:999999;
+transition:.8s;
+
+}
+
+.loader-circle{
+
+width:90px;
+height:90px;
+border:8px solid #eee;
+border-top:8px solid #29C67A;
+border-radius:50%;
+animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+100%{
+transform:rotate(360deg);
+}
+
+}
+
+
+/* CURSOR GLOW */
+
+.cursor{
+
+width:20px;
+height:20px;
+background:#29C67A;
+position:fixed;
+border-radius:50%;
+pointer-events:none;
+z-index:99999;
+opacity:.5;
+filter:blur(10px);
+
+}
+
+</style>
+
+
+
+<!-- PRELOADER -->
+
+<div class="loader">
+
+<div class="loader-circle"></div>
+
+</div>
+
+
+<!-- CURSOR -->
+
+<div class="cursor"></div>
+
+
+<!-- DARK MODE BUTTON 
+
+<div class="dark-toggle">
+
+<i class="fa-solid fa-moon"></i>
+
+</div>-->
+
+
+<script>
+
+/* PRELOADER */
+
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+document.querySelector(".loader").style.opacity="0";
+
+document.querySelector(".loader").style.visibility="hidden";
+
+},1000);
+
+});
+
+
+/* CURSOR GLOW */
+
+const cursor=document.querySelector(".cursor");
+
+document.addEventListener("mousemove",(e)=>{
+
+cursor.style.left=e.clientX+"px";
+
+cursor.style.top=e.clientY+"px";
+
+});
+
+
+/* DARK MODE */
+
+document.querySelector(".dark-toggle").onclick=function(){
+
+document.body.classList.toggle("dark-mode");
+
+}
+
+
+/* PAGE FADE EFFECT */
+
+document.body.animate([
+
+{opacity:0},
+
+{opacity:1}
+
+],{
+
+duration:1000
+
+});
+
+</script>
+
+<!-- ===================================== -->
+<!-- PART 11 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 12 START (Ultra Premium Animations) -->
+<!-- Paste below Part 11 -->
+<!-- ===================================== -->
+
+<style>
+
+/* PARTICLE BACKGROUND */
+
+.particle{
+position:fixed;
+width:8px;
+height:8px;
+background:#29C67A;
+border-radius:50%;
+opacity:.15;
+pointer-events:none;
+animation:particleFloat linear infinite;
+}
+
+@keyframes particleFloat{
+
+0%{
+transform:translateY(100vh) scale(0);
+}
+
+100%{
+transform:translateY(-100px) scale(1);
+}
+
+}
+
+
+/* HERO TYPING CURSOR */
+
+.typing-cursor{
+display:inline-block;
+width:3px;
+height:50px;
+background:#29C67A;
+animation:blink .8s infinite;
+vertical-align:middle;
+}
+
+@keyframes blink{
+50%{
+opacity:0;
+}
+}
+
+
+/* PULSE EFFECT */
+
+.whatsapp{
+
+animation:pulseWhatsapp 2s infinite;
+
+}
+
+@keyframes pulseWhatsapp{
+
+0%{
+box-shadow:0 0 0 0 rgba(37,211,102,.7);
+}
+
+70%{
+box-shadow:0 0 0 20px rgba(37,211,102,0);
+}
+
+100%{
+box-shadow:0 0 0 0 rgba(37,211,102,0);
+}
+
+}
+
+
+/* IMAGE FLOAT EFFECT */
+
+.hero-box{
+
+animation:heroFloat 4s ease-in-out infinite;
+
+}
+
+@keyframes heroFloat{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+
+</style>
+
+
+
+<script>
+
+/* ==========================
+PARTICLES
+========================== */
+
+for(let i=0;i<30;i++){
+
+let particle=document.createElement("div");
+
+particle.classList.add("particle");
+
+particle.style.left=Math.random()*100+"%";
+
+particle.style.animationDuration=(5+Math.random()*10)+"s";
+
+particle.style.animationDelay=Math.random()*5+"s";
+
+document.body.appendChild(particle);
+
+}
+
+
+/* ==========================
+TYPEWRITER EFFECT
+========================== */
+
+const heroTitle=document.querySelector(".hero h1");
+
+const originalText=heroTitle.innerHTML;
+
+heroTitle.innerHTML="";
+
+let index=0;
+
+function typeWriter(){
+
+if(index<originalText.length){
+
+heroTitle.innerHTML+=originalText.charAt(index);
+
+index++;
+
+setTimeout(typeWriter,35);
+
+}
+
+}
+
+typeWriter();
+
+
+/* ==========================
+AUTO TESTIMONIAL SLIDER
+========================== */
+
+let testimonials=document.querySelectorAll(".testimonial-card");
+
+let currentTestimonial=0;
+
+setInterval(()=>{
+
+testimonials.forEach(card=>{
+
+card.style.opacity=".3";
+
+card.style.transform="scale(.95)";
+
+});
+
+testimonials[currentTestimonial].style.opacity="1";
+
+testimonials[currentTestimonial].style.transform="scale(1.03)";
+
+currentTestimonial++;
+
+if(currentTestimonial>=testimonials.length){
+
+currentTestimonial=0;
+
+}
+
+},3000);
+
+
+
+/* ==========================
+HOVER GLOW EFFECT
+========================== */
+
+document.querySelectorAll(".product-card,.service-card,.why-card").forEach(card=>{
+
+card.addEventListener("mousemove",(e)=>{
+
+card.style.boxShadow="0 0 40px rgba(41,198,122,.25)";
+
+});
+
+card.addEventListener("mouseleave",()=>{
+
+card.style.boxShadow="";
+
+});
+
+});
+
+</script>
+
+<!-- ===================================== -->
+<!-- PART 12 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 13 START (Ultimate Premium Upgrade) -->
+<!-- Paste below Part 12 -->
+<!-- ===================================== -->
+
+<style>
+
+/* LIVE CLOCK */
+
+.live-clock{
+position:fixed;
+top:25px;
+left:25px;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(20px);
+padding:12px 25px;
+border-radius:50px;
+font-weight:600;
+color:#032B69;
+z-index:9999;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+
+/* STICKY CONTACT BAR */
+
+.contact-bar{
+
+position:fixed;
+bottom:50%;
+right:0;
+transform:translateY(50%);
+z-index:999;
+
+}
+
+.contact-bar a{
+
+display:block;
+width:60px;
+height:60px;
+line-height:60px;
+text-align:center;
+background:#032B69;
+color:rgb(253, 255, 254);
+font-size:24px;
+margin:8px 0;
+border-radius:20px 0 0 20px;
+transition:.5s;
+
+}
+
+.contact-bar a:hover{
+
+background:#29C67A;
+padding-right:15px;
+
+}
+
+
+/* FLOATING MEDICINE ICONS */
+
+.medicine-icon{
+
+position:fixed;
+font-size:40px;
+color:rgba(41, 198, 122, 0.799);
+animation:medicineMove 15s linear infinite;
+pointer-events:none;
+z-index:-1;
+
+}
+
+@keyframes medicineMove{
+
+0%{
+transform:translateY(100vh) rotate(0deg);
+}
+
+100%{
+transform:translateY(-150px) rotate(360deg);
+}
+
+}
+
+
+/* MOUSE TRAIL */
+
+.trail{
+
+position:fixed;
+width:12px;
+height:12px;
+background:#29C67A;
+border-radius:50%;
+pointer-events:none;
+opacity:.3;
+filter:blur(3px);
+z-index:99999;
+
+}
+
+
+/* PREMIUM SHAPES */
+
+.shape1{
+
+position:absolute;
+top:10%;
+right:5%;
+width:250px;
+height:250px;
+background:#29C67A10;
+border-radius:50%;
+filter:blur(50px);
+
+}
+
+.shape2{
+
+position:absolute;
+bottom:10%;
+left:5%;
+width:300px;
+height:300px;
+background:#032B6910;
+border-radius:50%;
+filter:blur(70px);
+
+}
+
+</style>
+
+
+
+<!-- STICKY CONTACT BAR -->
+
+<div class="contact-bar">
+
+<a href="tel:+919301464253">
+<i class="fa-solid fa-phone"></i>
+</a>
+
+<a href="mailto:vitotapharmaceuticals@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://wa.me/919301464253">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+</div>
+
+
+<!-- PREMIUM SHAPES -->
+
+
+<script>
+
+
+
+
+
+/* FLOATING MEDICINE ICONS */
+
+const icons=["💊","🧬","🩺","⚕️"];
+
+for(let i=0;i<20;i++){
+
+let med=document.createElement("div");
+
+med.classList.add("medicine-icon");
+
+med.innerHTML=icons[Math.floor(Math.random()*icons.length)];
+
+med.style.left=Math.random()*100+"%";
+
+med.style.animationDuration=(10+Math.random()*15)+"s";
+
+med.style.fontSize=(20+Math.random()*40)+"px";
+
+document.body.appendChild(med);
+
+}
+
+
+/* MOUSE TRAIL EFFECT */
+
+document.addEventListener("mousemove",(e)=>{
+
+let trail=document.createElement("div");
+
+trail.classList.add("trail");
+
+trail.style.left=e.pageX+"px";
+
+trail.style.top=e.pageY+"px";
+
+document.body.appendChild(trail);
+
+setTimeout(()=>{
+
+trail.remove();
+
+},500);
+
+});
+
+</script>
+
+<!-- ===================================== -->
+<!-- PART 13 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 14 START (Apple + Sun Pharma Level) -->
+<!-- Paste below Part 13 -->
+<!-- ===================================== -->
+
+<style>
+
+/* SCROLL PERCENT CIRCLE */
+
+.scroll-circle{
+
+position:fixed;
+bottom:120px;
+left:25px;
+width:70px;
+height:70px;
+border-radius:50%;
+background:conic-gradient(#29C67A 0deg,#eaeaea 0deg);
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:700;
+color:#032B69;
+z-index:9999;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.scroll-circle span{
+
+width:55px;
+height:55px;
+background:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+
+/* FLOATING MENU */
+
+.float-menu{
+
+position:fixed;
+left:30px;
+top:50%;
+transform:translateY(-50%);
+z-index:9999;
+
+}
+
+.float-menu a{
+
+display:block;
+width:60px;
+height:60px;
+line-height:60px;
+text-align:center;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(20px);
+color:#032B69;
+border-radius:50%;
+margin:10px 0;
+font-size:22px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.5s;
+
+}
+
+.float-menu a:hover{
+
+background:#54ac5b;
+color:white;
+transform:scale(1.1);
+
+}
+
+
+/* MATRIX EFFECT */
+
+.matrix{
+
+position:fixed;
+top:0;
+left:50px
+;
+width:100%;
+height:100%;
+pointer-events:none;
+opacity:.03;
+z-index:-2;
+
+}
+
+
+/* NAVBAR HIDE */
+
+.nav-hide{
+
+transform:translateY(-100%);
+transition:.5s;
+
+}
+
+</style>
+
+
+<!-- SCROLL CIRCLE -->
+
+<div class="scroll-circle">
+
+<span id="scrollValue">0%</span>
+
+</div>
+
+
+<!-- FLOAT MENU 
+
+<div class="float-menu">
+
+<a href="#"><i class="fa-solid fa-house"></i></a>
+
+<a href="#"><i class="fa-solid fa-capsules"></i></a>
+
+<a href="#"><i class="fa-solid fa-phone"></i></a>
+
+</div>-->
+
+
+<!-- MATRIX -->
+
+<canvas class="matrix"></canvas>
+
+
+<script>
+
+/* SCROLL CIRCLE */
+
+window.addEventListener("scroll",()=>{
+
+let scrollTop=document.documentElement.scrollTop;
+
+let height=document.documentElement.scrollHeight-window.innerHeight;
+
+let percent=Math.round((scrollTop/height)*100);
+
+document.getElementById("scrollValue").innerHTML=percent+"%";
+
+document.querySelector(".scroll-circle").style.background=
+`conic-gradient(#29C67A ${percent*3.6}deg,#eaeaea 0deg)`;
+
+});
+
+
+/* AUTO HIDE NAVBAR */
+
+let prevScroll=window.pageYOffset;
+
+window.onscroll=function(){
+
+let currentScroll=window.pageYOffset;
+
+if(prevScroll>currentScroll){
+
+document.querySelector(".navbar").classList.remove("nav-hide");
+
+}else{
+
+document.querySelector(".navbar").classList.add("nav-hide");
+
+}
+
+prevScroll=currentScroll;
+
+}
+
+
+/* MATRIX EFFECT */
+
+const canvas=document.querySelector(".matrix");
+
+const ctx=canvas.getContext("2d");
+
+canvas.width=window.innerWidth;
+
+canvas.height=window.innerHeight;
+
+let letters="VITOTA0123456789";
+
+letters=letters.split("");
+
+let fontSize=14;
+
+let columns=canvas.width/fontSize;
+
+let drops=[];
+
+for(let x=0;x<columns;x++){
+
+drops[x]=1;
+
+}
+
+function draw(){
+
+ctx.fillStyle="rgba(255,255,255,0.05)";
+
+ctx.fillRect(0,0,canvas.width,canvas.height);
+
+ctx.fillStyle="#29C67A";
+
+ctx.font=fontSize+"px monospace";
+
+for(let i=0;i<drops.length;i++){
+
+let text=letters[Math.floor(Math.random()*letters.length)];
+
+ctx.fillText(text,i*fontSize,drops[i]*fontSize);
+
+if(drops[i]*fontSize>canvas.height&&Math.random()>0.975){
+
+drops[i]=0;
+
+}
+
+drops[i]++;
+
+}
+
+}
+
+setInterval(draw,40);
+
+</script>
+
+<!-- ===================================== -->
+<!-- PART 14 END -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- PART 15 START (FINAL PREMIUM UPGRADE) -->
+<!-- Paste below Part 14 -->
+<!-- ===================================== -->
+
+<style>
+
+/* PREMIUM LOADER */
+
+#premiumLoader{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:999999;
+transition:1s;
+
+}
+
+.loader-logo{
+
+font-size:60px;
+font-weight:800;
+color:#032B69;
+animation:pulseLogo 1.5s infinite;
+
+}
+
+@keyframes pulseLogo{
+
+50%{
+
+transform:scale(1.1);
+
+}
+
+}
+
+
+/* CURSOR RING */
+
+.cursor-ring{
+
+position:fixed;
+width:40px;
+height:40px;
+border:2px solid #29C67A;
+border-radius:50%;
+pointer-events:none;
+z-index:999999;
+transition:.1s;
+
+}
+
+
+/* BUBBLE EFFECT */
+
+.bubble{
+
+position:fixed;
+bottom:-100px;
+border-radius:50%;
+background:rgba(41,198,122,.08);
+animation:bubbleMove linear infinite;
+
+}
+
+@keyframes bubbleMove{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+}
+
+}
+
+</style>
+
+
+
+<!-- PREMIUM LOADER -->
+
+<div id="premiumLoader">
+
+<div class="loader-logo">
+   <div class="loader-logo">
+       
+<img src="images/vitotalogo final.png" class="loader-logo">
+</div>
+<style>
+    .logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.loader-logo{
+    width:500px;
+    height:500px;
+    object-fit:contain;
+    background: transparent;
+
+    
+
+    margin-left:0px;    /* Right ki taraf */
+    margin-right:0px;   /* Left ki taraf */
+    margin-top:-15px;     /* Neeche */
+    margin-bottom:-15px;  /* Upar */
+}
+
+</style>
+
+
+<p align="center">VITOTA</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CURSOR RING -->
+
+<!--<div class="cursor-ring"></div>--> 
+
+
+<script>
+
+/* ===============================
+PREMIUM LOADER
+=============================== */
+
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+document.getElementById("premiumLoader").style.opacity="0";
+
+document.getElementById("premiumLoader").style.visibility="hidden";
+
+},1500);
+
+});
+
+
+/* ===============================
+CUSTOM CURSOR RING
+=============================== */
+
+const ring=document.querySelector(".cursor-ring");
+
+document.addEventListener("mousemove",(e)=>{
+
+ring.style.left=e.clientX-20+"px";
+
+ring.style.top=e.clientY-20+"px";
+
+});
+
+
+/* ===============================
+SMOOTH COUNTER UPGRADE
+=============================== */
+
+document.querySelectorAll('.counter').forEach(counter=>{
+
+let target=+counter.dataset.target;
+
+let count=0;
+
+let speed=target/80;
+
+function update(){
+
+count+=speed;
+
+if(count<target){
+
+counter.innerHTML=Math.floor(count)+"+";
+
+requestAnimationFrame(update);
+
+}
+
+else{
+
+counter.innerHTML=target+"+";
+
+}
+
+}
+
+update();
+
+});
+
+
+/* ===============================
+FLOATING BUBBLES
+=============================== */
+
+for(let i=0;i<25;i++){
+
+let bubble=document.createElement("div");
+
+bubble.classList.add("bubble");
+
+bubble.style.left=Math.random()*100+"%";
+
+bubble.style.width=(20+Math.random()*80)+"px";
+
+bubble.style.height=bubble.style.width;
+
+bubble.style.animationDuration=(8+Math.random()*10)+"s";
+
+document.body.appendChild(bubble);
+
+}
+
+
+/* ===============================
+PAGE TRANSITION
+=============================== */
+
+document.body.animate(
+
+[
+
+{opacity:0},
+
+{opacity:1}
+
+],
+
+{
+
+duration:1200,
+
+fill:"forwards"
+
+}
+
+);
+
+
+/* ===============================
+WINDOW RESIZE FIX
+=============================== */
+
+window.addEventListener("resize",()=>{
+
+location.reload();
+
+});
+
+
+console.log("Vitota Pharmaceuticals Premium Website Loaded Successfully");
+
+</script>
+<style>
+    /* ===============================
+PREMIUM RESPONSIVE FIX
+=============================== */
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+overflow-x:hidden;
+text-rendering:optimizeLegibility;
+-webkit-font-smoothing:antialiased;
+}
+
+img{
+max-width:100%;
+height:auto;
+display:block;
+}
+
+section{
+overflow:hidden;
+}
+
+.container{
+max-width:1320px;
+}
+
+/* Premium Animation */
+
+*{
+transition:
+background .35s ease,
+color .35s ease,
+transform .35s ease,
+box-shadow .35s ease;
+}
+
+/* Premium Cards */
+
+.hero-box,
+.product-card,
+.about-card,
+.service-card,
+.cert-card,
+.contact-card,
+.testimonial-card{
+border-radius:30px;
+backdrop-filter:blur(15px);
+box-shadow:
+0 15px 45px rgba(0,0,0,.08);
+}
+
+.hero-box:hover,
+.product-card:hover,
+.about-card:hover,
+.service-card:hover,
+.cert-card:hover,
+.contact-card:hover,
+.testimonial-card:hover{
+
+transform:translateY(-10px);
+box-shadow:
+0 25px 60px rgba(0,0,0,.18);
+}
+
+/* Better Buttons */
+
+.btn-main,
+.partner-btn{
+
+transition:.4s;
+}
+
+.btn-main:hover,
+.partner-btn:hover{
+
+transform:translateY(-3px);
+box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+/* Better Logo */
+
+.company-logo{
+max-width:120px;
+height:auto;
+}
+
+/* Better Hero */
+
+.hero h1{
+font-size:clamp(36px,5vw,68px);
+line-height:1.15;
+}
+
+.hero h2{
+font-size:clamp(28px,4vw,45px);
+}
+
+.hero p{
+font-size:clamp(15px,2vw,18px);
+line-height:1.8;
+}
+
+/* Section Title */
+
+.section-title{
+font-size:clamp(30px,4vw,55px);
+}
+
+/* Mobile */
+
+@media(max-width:991px){
+
+.hero{
+padding:70px 0;
+text-align:center;
+}
+
+.hero-box{
+margin-top:40px;
+}
+
+.about,
+.products,
+.services,
+.quality,
+.partner,
+.contact,
+.newsletter,
+.certifications,
+.testimonials,
+.faq{
+
+padding:70px 0;
+}
+
+.navbar-brand{
+font-size:28px;
+}
+
+.company-logo{
+max-width:85px;
+}
+
+.btn-main,
+.btn-outline-main{
+display:inline-block;
+margin:8px;
+}
+
+.hero-icon{
+width:90px;
+height:90px;
+}
+
+.hero-icon i{
+font-size:45px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+.stat-card h2{
+font-size:38px;
+}
+
+.product-card,
+.service-card,
+.about-card{
+padding:25px;
+}
+
+}
+
+@media(max-width:480px){
+
+.navbar-brand{
+font-size:22px;
+}
+
+.hero{
+padding:60px 0;
+}
+
+.hero-box{
+padding:25px;
+}
+
+.section-title{
+font-size:28px;
+}
+
+.btn-main,
+.btn-outline-main{
+width:100%;
+text-align:center;
+margin:8px 0;
+}
+
+.partner-box{
+padding:30px;
+}
+
+.news-btn{
+margin-top:15px;
+}
+
+}
+</style>
+
+
+
+<!-- ===================================== -->
+<!-- PART 15 END -->
+<!-- ===================================== -->
