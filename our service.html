@@ -1,0 +1,5546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vitota Pharmaceuticals | Service Page</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+overflow-x:hidden;
+background:#031d71;
+}
+
+/* COLORS */
+
+:root{
+--blue:#032B69;
+--green:#1bad3f;
+--light:#F5F9FF;
+}
+
+/* TOPBAR */
+
+.topbar{
+background:var(--blue);
+padding:5px 0;
+color:rgb(4, 64, 155);
+font-size:16px;
+}
+
+
+
+.topbar i{
+color:var(--blue);
+}
+
+/* NAVBAR */
+
+.navbar{
+background:rgb(255, 255, 255);
+padding:16px 0;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+font-size:40px;
+font-weight:600;
+color:var(--blue)!important;
+}
+
+.navbar-brand h6{
+font-size:15px;
+font-weight:600;
+color:var(--green)!important;
+margin:0;
+letter-spacing:1px;
+
+
+}
+
+.nav-link{
+font-weight:600;
+font-size:15px;
+color:var(--blue)!important;
+margin:0 12px;
+transition:.4s;
+}
+
+.nav-link:hover{
+color:var(--blue)!important;
+}
+
+.btn-main{
+background:var(--blue);
+color:rgb(76, 190, 137);
+padding:14px 45px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+transition:.0s;
+}
+
+.btn-main:hover{
+background:var(--green);
+color:rgb(9, 52, 116);
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(135deg,#a6b4e4,#eaedee);
+padding:120px 0;
+position:relative;
+overflow:hidden;
+}
+
+.hero::before{
+content:'';
+position:absolute;
+width:400px;
+height:400px;
+background:#2e8ff056;
+border-radius:50%;
+top:-150px;
+right:-100px;
+}
+
+.hero::after{
+content:'';
+position:absolute;
+width:350px;
+height:350px;
+background:#032B6910;
+border-radius:50%;
+bottom:-150px;
+left:-120px;
+}
+
+.hero h4{
+font-size:22px;
+color:var(--BLUE);
+font-weight:700;
+letter-spacing:1px;
+color:var(--blue);
+}
+
+.hero h1{
+font-size:55px;
+font-weight:800;
+line-height:1;
+color:var(--green);
+}
+
+.hero span{
+color:var(--green);
+}
+
+.hero p{
+font-size:15px;
+line-height:1;
+color:#01080e;
+}
+
+.hero-box{
+
+background:rgba(84, 153, 199, 0.445);
+padding:40px;
+border-radius:35px;
+box-shadow:0 20px 50px rgba(0, 0, 0, 0.562);
+
+}
+
+.hero-icon{
+
+width:110px;
+height:110px;
+background:var(--blue);
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+
+}
+
+.hero-icon i{
+
+font-size:55px;
+color:rgb(123, 204, 154);
+
+}
+
+.btn-outline-main{
+
+border:1px solid var(--blue);
+padding:12px 25px;
+border-radius:50px;
+font-weight:600;
+color:var(--blue);
+text-decoration:none;
+margin-left:10px;
+transition:.4s;
+
+}
+
+.btn-outline-main:hover{
+
+background:var(--blue);
+color:rgb(19, 201, 44);
+
+}
+
+</style>
+
+</head>
+
+<body>
+   
+
+
+
+<!-- TOPBAR -->
+
+
+
+
+<div class="marquee-box">
+    <div class="marquee-text">
+
+        🌿 Vitota Pharmaceuticals | Advancing Healthcare | Quality Medicines | Innovation & Trust 🌿
+    </div>
+</div>
+
+<style>
+   .marquee-box{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    white-space:nowrap;
+    position:relative;
+}
+
+/* LEFT & RIGHT "TUNNEL" EFFECT */
+.marquee-box::before,
+.marquee-box::after{
+    content:"";
+    position:absolute;
+    top:0;
+    width:40px;
+    height:200%;
+    z-index:2;
+    pointer-events:none;
+}
+
+/* LEFT DARK + GREEN GLOW */
+.marquee-box::before{
+    left:0;
+    background:linear-gradient(to right,
+        rgba(8, 41, 125, 0.831),
+        
+        transparent
+    );
+    
+}
+
+/* RIGHT DARK + GREEN GLOW */
+.marquee-box::after{
+    right:0;
+    background:linear-gradient(to left,
+        rgba(8, 41, 125, 0.831),
+      
+        transparent
+    );
+   
+}
+
+.marquee-text{
+    display:inline-block;
+    padding-left:100%;
+    animation:scrollText 12s linear infinite;
+    color:white;
+    text-shadow:0 0 10px #080556;
+}
+
+@keyframes scrollText{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+</style>
+
+
+
+<!-- NAVBAR -->
+ <div class="menu-toggle" onclick="openMenu()">
+    ☰
+</div>
+<div id="sideMenu" class="side-menu">
+
+    <span class="close-btn" onclick="closeMenu()"><</span>
+
+    <a href="vitota.html">HOME</a>
+    <a href="ABOUT.HTML">ABOUT</a>
+    <a href="explore our product.html">PRODUCTS</a>
+    <a href="our service.html">SERVICES</a>
+    <a href="Quality page.html">QUALITY</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="GET IN TOUCH.html">GET IN TOUCH</a>
+
+</div>
+<style>.menu-toggle{
+    font-size:25px;
+    color:#84b5f8;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.side-menu{
+    position:fixed;
+    top:0;
+    left:-300px;
+    width:280px;
+    height:100%;
+    background:#032B69;
+    z-index:99999;
+    transition:.4s;
+    padding-top:80px;
+    box-shadow:5px 0 20px rgba(0,0,0,.3);
+}
+
+.side-menu a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:18px 30px;
+    font-size:18px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.side-menu a:hover{
+    background:#0aa60d;
+}
+
+.close-btn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    color:rgb(244, 241, 241);
+    font-size:35px;
+    cursor:pointer;
+}</style>
+<script>
+
+function openMenu(){
+    document.getElementById("sideMenu").style.left="0";
+}
+
+function closeMenu(){
+    document.getElementById("sideMenu").style.left="-300px";
+}
+
+</script>
+
+
+<nav class="navbar navbar-expand-lg sticky-top">
+
+<div class="container">
+
+
+
+   <div class="font-text">
+      
+<div class="logo">
+     
+    <img src="vitotalogo final.png" class="company-logo">
+ <a class="navbar-brand">
+    <div>
+       
+        <B>VITOTA</B>
+        <H6>PHARMACEUTICALS</H6>
+    
+    </div>
+     </a>
+</div>
+</div>
+<style>
+    .logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.company-logo{
+    width:150px;
+    height:100px;
+    object-fit:contain;
+    background: transparent;
+}
+</style>
+
+<button class="navbar-toggler"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav mx-auto">
+   
+
+<!--<li class="nav-item">
+<a class="nav-link">HOME</a>
+</li>-->
+
+<li class="nav-item">
+<a href="ABOUT.HTML" class="btn-outline-main">ABOUT</a>
+</li>
+
+<li class="nav-item">
+<a href="explore our product.html" class="btn-outline-main">PRODUCT</a>
+</li>
+
+<li class="nav-item">
+<a href="our service.html" class="btn-main">SERVICES</a>
+</li>
+
+<li class="nav-item">
+   <a href="Quality page.html" class="btn-outline-main">QUALITY</a>
+</li>
+
+<li class="nav-item">
+<a href="contact.html" class="btn-outline-main">CONTACT</a>
+</li>
+<BR>
+</ul>
+<a href="GET IN TOUCH.html" class="btn-main">
+GET IN TOUCH
+</a>
+
+
+</div>
+
+</div>
+
+</nav>
+<!-- =========================================
+     OUR SERVICES HERO SECTION
+========================================= -->
+
+<section class="services-hero">
+
+    <div class="hero-bg-circle circle-1"></div>
+    <div class="hero-bg-circle circle-2"></div>
+    <div class="hero-bg-circle circle-3"></div>
+
+    <div class="services-container">
+
+        <div class="hero-left">
+
+            <span class="hero-tag">
+                <i class="fa-solid fa-award"></i>
+                Trusted Pharmaceutical Services
+            </span>
+
+            <h1>
+                Comprehensive <span>Healthcare</span><br>
+                Solutions For A Better Tomorrow
+            </h1>
+
+            <p>
+                Vitota Pharmaceuticals delivers world-class pharmaceutical
+                manufacturing, quality assurance, product development,
+                regulatory support and healthcare solutions with innovation,
+                safety and global quality standards.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="contact.html" class="hero-btn">
+                    Get Started
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#services-overview" class="hero-btn-outline">
+                    Explore Services
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-right">
+
+            <div class="hero-image-box">
+
+                <img src="vision.jpg" class="hero-img" alt="Services">
+
+                <div class="floating-card card-one">
+                    <i class="fa-solid fa-capsules"></i>
+                    <h4>500+</h4>
+                    <p>Products</p>
+                </div>
+
+                <div class="floating-card card-two">
+                    <i class="fa-solid fa-flask"></i>
+                    <h4>100%</h4>
+                    <p>Quality Tested</p>
+                </div>
+
+                <div class="floating-card card-three">
+                    <i class="fa-solid fa-globe"></i>
+                    <h4>Global</h4>
+                    <p>Supply Network</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+
+    /*==================================
+OUR SERVICES HERO
+==================================*/
+
+
+.hero-img{
+    border-radius: 20px;
+}
+
+.hero-img{
+    width: 950px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.services-hero{
+
+    position:relative;
+    overflow:hidden;
+
+    padding:90px 8%;
+    min-height:90vh;
+
+    display:flex;
+    align-items:center;
+
+    background:
+    linear-gradient(135deg,#0d2d7a 0%,#6780b6 50%,#39ae9c 100%);
+}
+
+.services-container{
+
+    width:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    gap:70px;
+
+    position:relative;
+    z-index:5;
+}
+
+.hero-left{
+
+    width:55%;
+}
+
+.hero-tag{
+
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+
+    padding:12px 22px;
+
+    border-radius:40px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+}
+
+.hero-left h1{
+
+    font-size:62px;
+
+    line-height:1.15;
+
+    color:#fff;
+
+    font-weight:800;
+
+    margin-bottom:25px;
+}
+
+.hero-left h1 span{
+
+    color:#35d06f;
+}
+
+.hero-left p{
+
+    color:#dfe7ff;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    max-width:700px;
+
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.hero-btn{
+
+    background:#35d06f;
+
+    color:#fff;
+
+    padding:17px 34px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.4s;
+}
+
+.hero-btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+}
+
+.hero-btn-outline{
+
+    padding:17px 34px;
+
+    border:2px solid rgba(255,255,255,.5);
+
+    border-radius:50px;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.4s;
+}
+
+.hero-btn-outline:hover{
+
+    background:#fff;
+
+    color:#0d2d7a;
+}
+
+/* Right */
+
+.hero-right{
+
+    width:45%;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+.hero-image-box{
+
+    position:relative;
+}
+
+.hero-image-box img{
+
+    width:100%;
+
+    max-width:520px;
+
+    animation:floatImage 5s ease-in-out infinite;
+}
+
+/* Floating Cards */
+
+.floating-card{
+
+    position:absolute;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    text-align:center;
+
+    min-width:140px;
+
+    box-shadow:0 25px 50px rgba(0,0,0,.18);
+}
+
+.floating-card i{
+
+    font-size:30px;
+
+    color:#0d2d7a;
+
+    margin-bottom:10px;
+}
+
+.floating-card h4{
+
+    font-size:24px;
+
+    color:#0d2d7a;
+
+    margin-bottom:5px;
+}
+
+.floating-card p{
+
+    color:#666;
+}
+
+.card-one{
+
+    left:-40px;
+
+    top:60px;
+}
+
+.card-two{
+
+    right:-30px;
+
+    top:200px;
+}
+
+.card-three{
+
+    left:40px;
+
+    bottom:30px;
+}
+
+/* Background Circles */
+
+.hero-bg-circle{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.05);
+
+    animation:zoom 8s infinite alternate;
+}
+
+.circle-1{
+
+    width:450px;
+
+    height:450px;
+
+    left:-120px;
+
+    top:-120px;
+}
+
+.circle-2{
+
+    width:300px;
+
+    height:300px;
+
+    right:-80px;
+
+    top:100px;
+}
+
+.circle-3{
+
+    width:220px;
+
+    height:220px;
+
+    bottom:-80px;
+
+    left:40%;
+}
+
+/* Animations */
+
+@keyframes floatImage{
+
+0%,100%{
+
+transform:translateY(0);
+}
+
+50%{
+
+transform:translateY(-18px);
+}
+
+}
+
+@keyframes zoom{
+
+from{
+
+transform:scale(1);
+}
+
+to{
+
+transform:scale(1.2);
+}
+
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+.services-container{
+
+flex-direction:column;
+text-align:center;
+}
+
+.hero-left,
+.hero-right{
+
+width:100%;
+}
+
+.hero-left h1{
+
+font-size:46px;
+}
+
+.hero-buttons{
+
+justify-content:center;
+}
+
+.card-one,
+.card-two,
+.card-three{
+
+display:none;
+}
+
+}
+
+@media(max-width:576px){
+
+.services-hero{
+
+padding:70px 20px;
+}
+
+.hero-left h1{
+
+font-size:34px;
+}
+
+.hero-left p{
+
+font-size:16px;
+}
+
+.hero-btn,
+.hero-btn-outline{
+
+width:100%;
+
+text-align:center;
+}
+
+}
+</style>
+<!--=========================================
+        OUR SERVICES OVERVIEW
+==========================================-->
+
+<section class="services-overview" id="services-overview">
+
+    <div class="section-title">
+
+        <span>WHAT WE OFFER</span>
+
+        <h2>
+            Our Pharmaceutical
+            <span>Services</span>
+        </h2>
+
+        <p>
+            We provide innovative pharmaceutical solutions with
+            world-class quality standards, modern manufacturing
+            facilities and customer-focused healthcare services.
+        </p>
+
+    </div>
+
+    <div class="services-grid">
+
+        <!-- Card 1 -->
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-industry"></i>
+            </div>
+
+            <h3>Pharmaceutical Manufacturing</h3>
+
+            <p>
+                Advanced manufacturing facilities equipped with modern
+                technology ensuring safe, effective and reliable medicines.
+            </p>
+
+            <a href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="service-card">
+
+            <div class="service-icon green">
+
+                <i class="fa-solid fa-microscope"></i>
+
+            </div>
+
+            <h3>Research & Development</h3>
+
+            <p>
+                Innovative drug formulation, scientific research and
+                continuous product improvement for better healthcare.
+            </p>
+
+            <a href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="service-card">
+
+            <div class="service-icon blue">
+
+                <i class="fa-solid fa-shield-heart"></i>
+
+            </div>
+
+            <h3>Quality Assurance</h3>
+
+            <p>
+                Every batch undergoes rigorous quality testing to meet
+                national and international pharmaceutical standards.
+            </p>
+
+            <a href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <!-- Card 4 -->
+
+        <div class="service-card">
+
+            <div class="service-icon dark">
+
+                <i class="fa-solid fa-globe"></i>
+
+            </div>
+
+            <h3>Global Distribution</h3>
+
+            <p>
+                Reliable logistics network delivering pharmaceutical
+                products safely across domestic and international markets.
+            </p>
+
+            <a href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+        SERVICES OVERVIEW
+==========================================*/
+
+.services-overview{
+
+    padding:100px 8%;
+
+    background:#f7faff;
+}
+
+.section-title{
+
+    text-align:center;
+
+    max-width:800px;
+
+    margin:auto auto 70px;
+}
+
+.section-title span{
+
+    color:#19b45b;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+}
+
+.section-title h2{
+
+    font-size:46px;
+
+    margin:18px 0;
+
+    color:#0d2d7a;
+
+    line-height:1.3;
+}
+
+.section-title h2 span{
+
+    color:#19b45b;
+}
+
+.section-title p{
+
+    font-size:17px;
+
+    color:#666;
+
+    line-height:1.9;
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+}
+
+/* CARD */
+
+.service-card{
+
+    background:#fff;
+
+    border-radius:25px;
+
+    padding:40px 30px;
+
+    transition:.45s;
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.07);
+}
+
+.service-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(90deg,#0d2d7a,#19b45b);
+
+    transform:scaleX(0);
+
+    transition:.4s;
+}
+
+.service-card:hover::before{
+
+    transform:scaleX(1);
+}
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.12);
+}
+
+.service-icon{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:#eaf2ff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:25px;
+}
+
+.service-icon i{
+
+    font-size:34px;
+
+    color:#0d2d7a;
+}
+
+.green{
+
+    background:#e8fff0;
+}
+
+.green i{
+
+    color:#19b45b;
+}
+
+.blue{
+
+    background:#eef4ff;
+}
+
+.blue i{
+
+    color:#004dff;
+}
+
+.dark{
+
+    background:#edf3ff;
+}
+
+.dark i{
+
+    color:#112f7d;
+}
+
+.service-card h3{
+
+    font-size:25px;
+
+    margin-bottom:18px;
+
+    color:#0d2d7a;
+}
+
+.service-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+}
+
+.service-card a{
+
+    text-decoration:none;
+
+    color:#19b45b;
+
+    font-weight:700;
+
+    transition:.3s;
+}
+
+.service-card a i{
+
+    margin-left:8px;
+
+    transition:.3s;
+}
+
+.service-card:hover a i{
+
+    margin-left:15px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+.services-overview{
+
+padding:80px 20px;
+
+}
+
+.service-card{
+
+padding:35px 25px;
+
+}
+
+}
+</style>
+<!--=========================================
+        MANUFACTURING SERVICES
+==========================================-->
+
+<section class="manufacturing-section">
+
+    <div class="manufacturing-container">
+
+        <!-- Left -->
+
+        <div class="manufacturing-image">
+
+            <img src="manu1pic.avif" alt="Manufacturing">
+
+            <div class="experience-box">
+
+                <h2>10+</h2>
+
+                <span>Years Of Excellence</span>
+
+            </div>
+
+        </div>
+
+        <!-- Right -->
+
+        <div class="manufacturing-content">
+
+            <span class="small-title">
+                ADVANCED MANUFACTURING
+            </span>
+
+            <h2>
+                State-of-the-Art
+                <span>Manufacturing Facility</span>
+            </h2>
+
+            <p>
+
+                At Vitota Pharmaceuticals, our advanced manufacturing
+                infrastructure combines cutting-edge technology,
+                stringent quality control and highly skilled professionals
+                to produce safe, effective and affordable medicines.
+
+            </p>
+
+            <div class="feature-list">
+
+                <div class="feature-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>WHO & GMP Standard Manufacturing</span>
+
+                </div>
+
+                <div class="feature-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Fully Automated Production Lines</span>
+
+                </div>
+
+                <div class="feature-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Modern Quality Control Laboratory</span>
+
+                </div>
+
+                <div class="feature-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Highly Qualified Technical Team</span>
+
+                </div>
+
+                <div class="feature-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Safe & Secure Packaging System</span>
+
+                </div>
+
+                <div class="feature-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Reliable Nationwide Distribution</span>
+
+                </div>
+
+            </div>
+
+            <a href="contact.html" class="manufacturing-btn">
+
+                Request Service
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+      MANUFACTURING SECTION
+==========================================*/
+
+.manufacturing-section{
+
+    padding:110px 8%;
+
+    background:#ffffff;
+
+}
+
+.manufacturing-container{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:70px;
+
+}
+
+.manufacturing-image{
+
+    flex:1;
+
+    position:relative;
+
+}
+
+.manufacturing-image img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+    transition:.5s;
+
+}
+
+.manufacturing-image:hover img{
+
+    transform:scale(1.03);
+
+}
+
+.experience-box{
+
+    position:absolute;
+
+    right:-25px;
+
+    bottom:40px;
+
+    width:170px;
+
+    height:170px;
+
+    background:linear-gradient(135deg,#0d2d7a,#1b59d8);
+
+    border-radius:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    box-shadow:0 20px 40px rgba(13,45,122,.35);
+
+}
+
+.experience-box h2{
+
+    font-size:52px;
+
+    margin-bottom:10px;
+
+}
+
+.experience-box span{
+
+    text-align:center;
+
+    line-height:1.6;
+
+}
+
+.manufacturing-content{
+
+    flex:1;
+
+}
+
+.small-title{
+
+    color:#18b25c;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.manufacturing-content h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:18px 0;
+
+    line-height:1.3;
+
+}
+
+.manufacturing-content h2 span{
+
+    color:#18b25c;
+
+}
+
+.manufacturing-content p{
+
+    color:#666;
+
+    font-size:17px;
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+.feature-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin-bottom:45px;
+
+}
+
+.feature-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    font-weight:600;
+
+    color:#333;
+
+}
+
+.feature-item i{
+
+    color:#18b25c;
+
+    font-size:22px;
+
+}
+
+.manufacturing-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    background:#0d2d7a;
+
+    color:#fff;
+
+    padding:17px 35px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    transition:.4s;
+
+}
+
+.manufacturing-btn:hover{
+
+    background:#18b25c;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.manufacturing-btn i{
+
+    transition:.3s;
+
+}
+
+.manufacturing-btn:hover i{
+
+    transform:translateX(6px);
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.manufacturing-container{
+
+flex-direction:column;
+
+}
+
+.manufacturing-content{
+
+text-align:center;
+
+}
+
+.feature-list{
+
+grid-template-columns:1fr;
+
+}
+
+.feature-item{
+
+justify-content:center;
+
+}
+
+.experience-box{
+
+right:15px;
+
+bottom:15px;
+
+width:140px;
+
+height:140px;
+
+}
+
+.manufacturing-content h2{
+
+font-size:36px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.manufacturing-section{
+
+padding:80px 20px;
+
+}
+
+.manufacturing-content h2{
+
+font-size:30px;
+
+}
+
+.experience-box{
+
+display:none;
+
+}
+
+}
+</style>
+<!--=========================================
+        RESEARCH & DEVELOPMENT
+==========================================-->
+
+<section class="rnd-section">
+
+    <div class="rnd-header">
+
+        <span>INNOVATION & SCIENCE</span>
+
+        <h2>
+            Research &
+            <span>Development</span>
+        </h2>
+
+        <p>
+            Our research team continuously develops innovative pharmaceutical
+            formulations using advanced technology, scientific expertise,
+            and strict quality standards to improve patient care.
+        </p>
+
+    </div>
+
+    <div class="rnd-timeline">
+
+        <div class="rnd-card">
+
+            <div class="rnd-number">01</div>
+
+            <div class="rnd-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+
+            <h3>Idea & Planning</h3>
+
+            <p>
+                Identifying healthcare needs and planning innovative
+                pharmaceutical solutions.
+            </p>
+
+        </div>
+
+        <div class="rnd-card">
+
+            <div class="rnd-number">02</div>
+
+            <div class="rnd-icon">
+                <i class="fa-solid fa-flask"></i>
+            </div>
+
+            <h3>Laboratory Research</h3>
+
+            <p>
+                Scientific formulation and analytical testing
+                using modern laboratory equipment.
+            </p>
+
+        </div>
+
+        <div class="rnd-card">
+
+            <div class="rnd-number">03</div>
+
+            <div class="rnd-icon">
+                <i class="fa-solid fa-vials"></i>
+            </div>
+
+            <h3>Clinical Validation</h3>
+
+            <p>
+                Safety, stability and efficacy evaluation
+                before commercial production.
+            </p>
+
+        </div>
+
+        <div class="rnd-card">
+
+            <div class="rnd-number">04</div>
+
+            <div class="rnd-icon">
+                <i class="fa-solid fa-capsules"></i>
+            </div>
+
+            <h3>Commercial Production</h3>
+
+            <p>
+                Large-scale manufacturing with strict GMP
+                and international quality standards.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+        R&D SECTION
+==========================================*/
+
+.rnd-section{
+
+    padding:110px 8%;
+
+    background:linear-gradient(135deg,#0d2d7a,#153f9d);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.rnd-header{
+
+    max-width:760px;
+
+    margin:auto;
+
+    text-align:center;
+
+    margin-bottom:80px;
+
+}
+
+.rnd-header span{
+
+    color:#48d67b;
+
+    letter-spacing:2px;
+
+    font-weight:700;
+
+}
+
+.rnd-header h2{
+
+    color:#fff;
+
+    font-size:48px;
+
+    margin:18px 0;
+
+}
+
+.rnd-header h2 span{
+
+    color:#48d67b;
+
+}
+
+.rnd-header p{
+
+    color:#dfe8ff;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+.rnd-timeline{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    position:relative;
+
+}
+
+.rnd-card{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:25px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    position:relative;
+
+}
+
+.rnd-card:hover{
+
+    transform:translateY(-12px);
+
+    background:#ffffff;
+
+}
+
+.rnd-number{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    font-size:42px;
+
+    font-weight:800;
+
+    color:rgba(255,255,255,.15);
+
+}
+
+.rnd-card:hover .rnd-number{
+
+    color:rgba(13,45,122,.12);
+
+}
+
+.rnd-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.rnd-icon i{
+
+    font-size:36px;
+
+    color:#0d2d7a;
+
+}
+
+.rnd-card h3{
+
+    color:#fff;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+    transition:.3s;
+
+}
+
+.rnd-card p{
+
+    color:#dfe8ff;
+
+    line-height:1.8;
+
+    transition:.3s;
+
+}
+
+.rnd-card:hover h3{
+
+    color:#0d2d7a;
+
+}
+
+.rnd-card:hover p{
+
+    color:#666;
+
+}
+
+/* Responsive */
+
+@media(max-width:1100px){
+
+.rnd-timeline{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.rnd-section{
+
+padding:80px 20px;
+
+}
+
+.rnd-header h2{
+
+font-size:34px;
+
+}
+
+.rnd-timeline{
+
+grid-template-columns:1fr;
+
+}
+
+}
+</style>
+<!--=========================================
+      THIRD PARTY MANUFACTURING
+==========================================-->
+
+<section class="third-party-section">
+
+    <div class="third-party-container">
+
+        <!-- Left Content -->
+
+        <div class="third-left">
+
+            <span class="third-small-title">
+                CONTRACT MANUFACTURING
+            </span>
+
+            <h2>
+                Trusted Third Party
+                <span>Manufacturing Partner</span>
+            </h2>
+
+            <p>
+                Vitota Pharmaceuticals provides reliable third-party and
+                contract manufacturing services with WHO-GMP compliant
+                facilities, advanced production technology, and strict
+                quality assurance for pharmaceutical brands across India.
+            </p>
+
+            <div class="third-features">
+
+                <div class="third-feature">
+                    <i class="fa-solid fa-check"></i>
+                    WHO-GMP Certified Facility
+                </div>
+
+                <div class="third-feature">
+                    <i class="fa-solid fa-check"></i>
+                    Customized Product Development
+                </div>
+
+                <div class="third-feature">
+                    <i class="fa-solid fa-check"></i>
+                    Private Label Manufacturing
+                </div>
+
+                <div class="third-feature">
+                    <i class="fa-solid fa-check"></i>
+                    Fast Delivery & Logistics
+                </div>
+
+            </div>
+
+            <a href="contact.html" class="third-btn">
+                Start Partnership
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="third-right">
+
+            <img src="manu2pic.jpg" alt="Third Party Manufacturing">
+
+            <div class="floating-stat stat1">
+                <h3>500+</h3>
+                <p>Products</p>
+            </div>
+
+            <div class="floating-stat stat2">
+                <h3>100+</h3>
+                <p>Business Partners</p>
+            </div>
+
+            <div class="floating-stat stat3">
+                <h3>24×7</h3>
+                <p>Customer Support</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+     THIRD PARTY MANUFACTURING
+==========================================*/
+
+.third-party-section{
+
+    padding:110px 8%;
+
+    background:#f7fbff;
+
+}
+
+.third-party-container{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:70px;
+
+}
+
+.third-left{
+
+    flex:1;
+
+}
+
+.third-small-title{
+
+    color:#18b25c;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.third-left h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:20px 0;
+
+    line-height:1.3;
+
+}
+
+.third-left h2 span{
+
+    color:#18b25c;
+
+}
+
+.third-left p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+    font-size:17px;
+
+}
+
+.third-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin-bottom:40px;
+
+}
+
+.third-feature{
+
+    background:#fff;
+
+    padding:18px 22px;
+
+    border-radius:14px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+    font-weight:600;
+
+    transition:.4s;
+
+}
+
+.third-feature:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.third-feature i{
+
+    color:#18b25c;
+
+    margin-right:10px;
+
+}
+
+.third-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:#0d2d7a;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    transition:.4s;
+
+    font-weight:700;
+
+}
+
+.third-btn:hover{
+
+    background:#18b25c;
+
+}
+
+.third-right{
+
+    flex:1;
+
+    position:relative;
+
+}
+
+.third-right img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+}
+
+.floating-stat{
+
+    position:absolute;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:18px 22px;
+
+    text-align:center;
+
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+
+    animation:floatStat 4s ease-in-out infinite;
+
+}
+
+.floating-stat h3{
+
+    color:#0d2d7a;
+
+    font-size:28px;
+
+    margin-bottom:5px;
+
+}
+
+.floating-stat p{
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
+.stat1{
+
+    top:30px;
+
+    left:-35px;
+
+}
+
+.stat2{
+
+    right:-30px;
+
+    top:180px;
+
+}
+
+.stat3{
+
+    left:40px;
+
+    bottom:20px;
+
+}
+
+@keyframes floatStat{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.third-party-container{
+
+flex-direction:column;
+
+}
+
+.third-left{
+
+text-align:center;
+
+}
+
+.third-features{
+
+grid-template-columns:1fr;
+
+}
+
+.floating-stat{
+
+display:none;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.third-party-section{
+
+padding:80px 20px;
+
+}
+
+.third-left h2{
+
+font-size:32px;
+
+}
+
+}
+</style>
+<!--=========================================
+        PRODUCT CATEGORIES
+==========================================-->
+
+<section class="product-category-section">
+
+    <div class="category-heading">
+
+        <span>OUR EXPERTISE</span>
+
+        <h2>
+            Pharmaceutical
+            <span>Product Categories</span>
+        </h2>
+
+        <p>
+            We manufacture a wide range of high-quality pharmaceutical products
+            designed to meet modern healthcare requirements with international
+            quality standards.
+        </p>
+
+    </div>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <i class="fa-solid fa-capsules"></i>
+            <h3>Tablets</h3>
+            <p>High-quality tablet formulations for multiple therapeutic segments.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-pills"></i>
+            <h3>Capsules</h3>
+            <p>Advanced capsule manufacturing with superior quality assurance.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-syringe"></i>
+            <h3>Injectables</h3>
+            <p>Sterile injectable products manufactured under strict protocols.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-prescription-bottle-medical"></i>
+            <h3>Syrups</h3>
+            <p>Accurate formulations for pediatric and adult healthcare.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-hand-holding-medical"></i>
+            <h3>Ointments</h3>
+            <p>Dermatology and topical care solutions with premium ingredients.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h3>Nutraceuticals</h3>
+            <p>Health supplements supporting wellness and preventive healthcare.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-flask-vial"></i>
+            <h3>Liquid Orals</h3>
+            <p>Scientifically balanced liquid formulations for every age group.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-microscope"></i>
+            <h3>Specialty Products</h3>
+            <p>Customized pharmaceutical products developed for unique requirements.</p>
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+      PRODUCT CATEGORY SECTION
+==========================================*/
+
+.product-category-section{
+
+    padding:110px 8%;
+
+    background:linear-gradient(135deg,#f8fbff,#edf4ff);
+
+}
+
+.category-heading{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:auto;
+
+    margin-bottom:70px;
+
+}
+
+.category-heading span{
+
+    color:#18b25c;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.category-heading h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:18px 0;
+
+}
+
+.category-heading h2 span{
+
+    color:#18b25c;
+
+}
+
+.category-heading p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+.category-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+.category-card{
+
+    background:rgba(255,255,255,.9);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:24px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.45s;
+
+    border:1px solid rgba(13,45,122,.08);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.category-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(90deg,#0d2d7a,#18b25c);
+
+    transform:scaleX(0);
+
+    transition:.4s;
+
+}
+
+.category-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.12);
+
+}
+
+.category-card i{
+
+    font-size:55px;
+
+    color:#0d2d7a;
+
+    margin-bottom:25px;
+
+    transition:.4s;
+
+}
+
+.category-card:hover i{
+
+    color:#18b25c;
+
+    transform:scale(1.15) rotate(8deg);
+
+}
+
+.category-card h3{
+
+    color:#0d2d7a;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.category-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.product-category-section{
+
+padding:80px 20px;
+
+}
+
+.category-heading h2{
+
+font-size:34px;
+
+}
+
+.category-card{
+
+padding:30px 25px;
+
+}
+
+}
+</style>
+<!--=========================================
+        OUR WORKING PROCESS
+==========================================-->
+
+<section class="work-process">
+
+    <div class="process-heading">
+
+        <span>HOW WE WORK</span>
+
+        <h2>
+            Our Working
+            <span>Process</span>
+        </h2>
+
+        <p>
+            Every product follows a carefully managed workflow—from research
+            to delivery—ensuring safety, quality and customer satisfaction.
+        </p>
+
+    </div>
+
+    <div class="process-line"></div>
+
+    <div class="process-grid">
+
+        <!-- Step 1 -->
+
+        <div class="process-card">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+
+            <span class="step">01</span>
+
+            <h3>Research</h3>
+
+            <p>
+                Market analysis and scientific research to identify healthcare requirements.
+            </p>
+
+        </div>
+
+        <!-- Step 2 -->
+
+        <div class="process-card">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-flask"></i>
+            </div>
+
+            <span class="step">02</span>
+
+            <h3>Formulation</h3>
+
+            <p>
+                Advanced formulation development using modern pharmaceutical techniques.
+            </p>
+
+        </div>
+
+        <!-- Step 3 -->
+
+        <div class="process-card">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-vials"></i>
+            </div>
+
+            <span class="step">03</span>
+
+            <h3>Testing</h3>
+
+            <p>
+                Strict laboratory testing and validation to ensure product safety.
+            </p>
+
+        </div>
+
+        <!-- Step 4 -->
+
+        <div class="process-card">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-industry"></i>
+            </div>
+
+            <span class="step">04</span>
+
+            <h3>Manufacturing</h3>
+
+            <p>
+                Automated production following WHO-GMP quality standards.
+            </p>
+
+        </div>
+
+        <!-- Step 5 -->
+
+        <div class="process-card">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-box"></i>
+            </div>
+
+            <span class="step">05</span>
+
+            <h3>Packaging</h3>
+
+            <p>
+                Secure packaging with complete quality inspection before dispatch.
+            </p>
+
+        </div>
+
+        <!-- Step 6 -->
+
+        <div class="process-card">
+
+            <div class="process-icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+
+            <span class="step">06</span>
+
+            <h3>Delivery</h3>
+
+            <p>
+                Fast and reliable delivery through our nationwide distribution network.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+        WORK PROCESS
+==========================================*/
+
+.work-process{
+
+    padding:110px 8%;
+
+    background:#ffffff;
+
+    position:relative;
+
+}
+
+.process-heading{
+
+    max-width:760px;
+
+    margin:auto;
+
+    text-align:center;
+
+    margin-bottom:80px;
+
+}
+
+.process-heading span{
+
+    color:#19b45b;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.process-heading h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:18px 0;
+
+}
+
+.process-heading h2 span{
+
+    color:#19b45b;
+
+}
+
+.process-heading p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+.process-line{
+
+    position:absolute;
+
+    left:10%;
+
+    right:10%;
+
+    top:330px;
+
+    height:4px;
+
+    background:linear-gradient(to right,#0d2d7a,#19b45b);
+
+    z-index:0;
+
+}
+
+.process-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    gap:25px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.process-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:35px 22px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    position:relative;
+
+}
+
+.process-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+}
+
+.process-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#0d2d7a,#19b45b);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.process-icon i{
+
+    color:#fff;
+
+    font-size:34px;
+
+}
+
+.step{
+
+    display:inline-block;
+
+    background:#eaf4ff;
+
+    color:#0d2d7a;
+
+    padding:6px 16px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.process-card h3{
+
+    color:#0d2d7a;
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+}
+
+.process-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+@media(max-width:1200px){
+
+.process-line{
+
+display:none;
+
+}
+
+.process-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.work-process{
+
+padding:80px 20px;
+
+}
+
+.process-heading h2{
+
+font-size:34px;
+
+}
+
+.process-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+</style>
+<!--=========================================
+        WHY CHOOSE VITOTA
+==========================================-->
+
+<section class="why-vitota">
+
+    <div class="why-container">
+
+        <!-- Left Image -->
+
+        <div class="why-image">
+
+            <img src="manu3pic.jpg" alt="Why Choose Vitota">
+
+            <div class="experience-badge">
+                <h2>15+</h2>
+                <span>Years of Trusted Excellence</span>
+            </div>
+
+        </div>
+
+        <!-- Right Content -->
+
+        <div class="why-content">
+
+            <span class="why-subtitle">WHY CHOOSE US</span>
+
+            <h2>
+                Delivering Quality,
+                <span>Innovation & Trust</span>
+            </h2>
+
+            <p>
+                We combine advanced pharmaceutical technology, experienced
+                professionals and strict quality control to deliver reliable
+                healthcare solutions for patients and business partners.
+            </p>
+
+            <div class="why-features">
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-medal"></i>
+
+                    <div>
+
+                        <h4>Certified Quality</h4>
+
+                        <p>WHO-GMP manufacturing with international quality standards.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-user-doctor"></i>
+
+                    <div>
+
+                        <h4>Expert Team</h4>
+
+                        <p>Experienced pharmacists, scientists and healthcare professionals.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-microscope"></i>
+
+                    <div>
+
+                        <h4>Modern Technology</h4>
+
+                        <p>Advanced laboratories and fully automated manufacturing systems.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-handshake"></i>
+
+                    <div>
+
+                        <h4>Customer Commitment</h4>
+
+                        <p>Dedicated support with long-term business relationships.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Counter -->
+
+            <div class="counter-grid">
+
+                <div class="counter-box">
+                    <h3>500+</h3>
+                    <span>Products</span>
+                </div>
+
+                <div class="counter-box">
+                    <h3>100+</h3>
+                    <span>Partners</span>
+                </div>
+
+                <div class="counter-box">
+                    <h3>28+</h3>
+                    <span>States Served</span>
+                </div>
+
+                <div class="counter-box">
+                    <h3>24×7</h3>
+                    <span>Support</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+        WHY CHOOSE VITOTA
+==========================================*/
+
+.why-vitota{
+
+    padding:110px 8%;
+
+    background:linear-gradient(135deg,#f7fbff,#eef5ff);
+
+}
+
+.why-container{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+.why-image{
+
+    flex:1;
+
+    position:relative;
+
+}
+
+.why-image img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+    transition:.5s;
+
+}
+
+.why-image img:hover{
+
+    transform:scale(1.03);
+
+}
+
+.experience-badge{
+
+    position:absolute;
+
+    bottom:30px;
+
+    right:-25px;
+
+    background:linear-gradient(135deg,#0d2d7a,#1f6fff);
+
+    color:#fff;
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    box-shadow:0 20px 50px rgba(13,45,122,.35);
+
+}
+
+.experience-badge h2{
+
+    font-size:52px;
+
+    margin-bottom:10px;
+
+}
+
+.why-content{
+
+    flex:1;
+
+}
+
+.why-subtitle{
+
+    color:#18b25c;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.why-content h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:18px 0;
+
+    line-height:1.3;
+
+}
+
+.why-content h2 span{
+
+    color:#18b25c;
+
+}
+
+.why-content p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+.why-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.why-card{
+
+    display:flex;
+
+    gap:18px;
+
+    padding:22px;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    transition:.4s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.why-card i{
+
+    font-size:34px;
+
+    color:#18b25c;
+
+}
+
+.why-card h4{
+
+    color:#0d2d7a;
+
+    margin-bottom:8px;
+
+}
+
+.why-card p{
+
+    margin:0;
+
+    font-size:14px;
+
+}
+
+.counter-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    margin-top:45px;
+
+}
+
+.counter-box{
+
+    background:#0d2d7a;
+
+    color:#fff;
+
+    padding:28px 20px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.counter-box:hover{
+
+    background:#18b25c;
+
+    transform:translateY(-8px);
+
+}
+
+.counter-box h3{
+
+    font-size:34px;
+
+    margin-bottom:8px;
+
+}
+
+.counter-box span{
+
+    font-size:15px;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.why-container{
+
+flex-direction:column;
+
+}
+
+.why-content{
+
+text-align:center;
+
+}
+
+.why-features{
+
+grid-template-columns:1fr;
+
+}
+
+.counter-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.experience-badge{
+
+display:none;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.why-vitota{
+
+padding:80px 20px;
+
+}
+
+.why-content h2{
+
+font-size:32px;
+
+}
+
+.counter-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+</style>
+<!--=========================================
+        INDUSTRIES WE SERVE
+==========================================-->
+
+<section class="industries-section">
+
+    <div class="industries-heading">
+
+        <span>OUR REACH</span>
+
+        <h2>
+            Industries
+            <span>We Serve</span>
+        </h2>
+
+        <p>
+            Our pharmaceutical solutions are trusted by healthcare
+            organizations, distributors, hospitals and wellness partners
+            across India.
+        </p>
+
+    </div>
+
+    <div class="industries-grid">
+
+        <!-- Card 1 -->
+
+        <div class="industry-card">
+
+            <div class="industry-icon">
+                <i class="fa-solid fa-hospital"></i>
+            </div>
+
+            <h3>Hospitals</h3>
+
+            <p>
+                Supplying high-quality medicines and healthcare products
+                to hospitals with reliable delivery.
+            </p>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="industry-card">
+
+            <div class="industry-icon">
+                <i class="fa-solid fa-user-doctor"></i>
+            </div>
+
+            <h3>Clinics</h3>
+
+            <p>
+                Supporting clinics with premium pharmaceutical solutions
+                and dependable product availability.
+            </p>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="industry-card">
+
+            <div class="industry-icon">
+                <i class="fa-solid fa-prescription-bottle-medical"></i>
+            </div>
+
+            <h3>Pharmacies</h3>
+
+            <p>
+                Comprehensive medicine supply for retail and wholesale
+                pharmacy businesses.
+            </p>
+
+        </div>
+
+        <!-- Card 4 -->
+
+        <div class="industry-card">
+
+            <div class="industry-icon">
+                <i class="fa-solid fa-handshake"></i>
+            </div>
+
+            <h3>Distributors</h3>
+
+            <p>
+                Long-term partnerships with distributors through consistent
+                quality and timely supply.
+            </p>
+
+        </div>
+
+        <!-- Card 5 -->
+
+        <div class="industry-card">
+
+            <div class="industry-icon">
+                <i class="fa-solid fa-earth-asia"></i>
+            </div>
+
+            <h3>Export Markets</h3>
+
+            <p>
+                Delivering pharmaceutical products to international markets
+                while maintaining global quality standards.
+            </p>
+
+        </div>
+
+        <!-- Card 6 -->
+
+        <div class="industry-card">
+
+            <div class="industry-icon">
+                <i class="fa-solid fa-building-columns"></i>
+            </div>
+
+            <h3>Government Supply</h3>
+
+            <p>
+                Supporting healthcare initiatives with dependable
+                pharmaceutical manufacturing and distribution.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+        INDUSTRIES WE SERVE
+==========================================*/
+
+.industries-section{
+
+    padding:110px 8%;
+
+    background:#ffffff;
+
+}
+
+.industries-heading{
+
+    max-width:760px;
+
+    margin:auto;
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.industries-heading span{
+
+    color:#19b45b;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.industries-heading h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:18px 0;
+
+}
+
+.industries-heading h2 span{
+
+    color:#19b45b;
+
+}
+
+.industries-heading p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+.industries-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.industry-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+    border:1px solid rgba(13,45,122,.08);
+
+}
+
+.industry-card:hover{
+
+    transform:translateY(-12px);
+
+    background:linear-gradient(135deg,#0d2d7a,#1657d4);
+
+}
+
+.industry-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:#eef5ff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.4s;
+
+}
+
+.industry-icon i{
+
+    font-size:36px;
+
+    color:#0d2d7a;
+
+    transition:.4s;
+
+}
+
+.industry-card:hover .industry-icon{
+
+    background:#fff;
+
+}
+
+.industry-card:hover .industry-icon i{
+
+    color:#19b45b;
+
+}
+
+.industry-card h3{
+
+    color:#0d2d7a;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+    transition:.4s;
+
+}
+
+.industry-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    transition:.4s;
+
+}
+
+.industry-card:hover h3,
+
+.industry-card:hover p{
+
+    color:#fff;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.industries-section{
+
+padding:80px 20px;
+
+}
+
+.industries-heading h2{
+
+font-size:34px;
+
+}
+
+}
+</style>
+<!--=========================================
+            FAQ SECTION
+==========================================-->
+
+<section class="faq-section">
+
+    <div class="faq-heading">
+
+        <span>FREQUENTLY ASKED QUESTIONS</span>
+
+        <h2>
+            Have Any Questions?
+            <span>Find Answers Here</span>
+        </h2>
+
+        <p>
+            Explore the most commonly asked questions about our pharmaceutical
+            services, manufacturing capabilities and business partnerships.
+        </p>
+
+    </div>
+
+    <div class="faq-container">
+
+        <!-- FAQ 1 -->
+
+        <div class="faq-item active">
+
+            <button class="faq-question">
+
+                What pharmaceutical services does Vitota provide?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    We provide pharmaceutical manufacturing, third-party
+                    manufacturing, contract manufacturing, product development,
+                    quality assurance and nationwide distribution services.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 2 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Do you provide Third Party Manufacturing?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. We offer reliable third-party manufacturing with
+                    advanced production facilities and strict quality standards.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 3 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Are your products quality certified?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Every product passes multiple quality inspections and is
+                    manufactured following recognized pharmaceutical quality
+                    standards.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 4 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                How can I become your business partner?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Simply contact our business team through the Contact page.
+                    We will guide you through the partnership process.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 5 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Do you provide nationwide delivery?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes, we have an efficient logistics network to ensure
+                    timely delivery across India.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+            FAQ SECTION
+==========================================*/
+
+.faq-section{
+
+    padding:110px 8%;
+
+    background:linear-gradient(135deg,#f7fbff,#edf5ff);
+
+}
+
+.faq-heading{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:auto;
+
+    margin-bottom:70px;
+
+}
+
+.faq-heading span{
+
+    color:#18b25c;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.faq-heading h2{
+
+    font-size:48px;
+
+    color:#0d2d7a;
+
+    margin:18px 0;
+
+}
+
+.faq-heading h2 span{
+
+    color:#18b25c;
+
+}
+
+.faq-heading p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.faq-container{
+
+    max-width:950px;
+
+    margin:auto;
+
+}
+
+.faq-item{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    margin-bottom:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.faq-item:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.faq-question{
+
+    width:100%;
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    padding:25px 30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    font-size:19px;
+
+    font-weight:600;
+
+    color:#0d2d7a;
+
+}
+
+.faq-question i{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#eef4ff;
+
+    transition:.3s;
+
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .4s ease;
+
+}
+
+.faq-answer p{
+
+    padding:0 30px 25px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.faq-item.active .faq-answer{
+
+    max-height:250px;
+
+}
+
+.faq-item.active .faq-question i{
+
+    transform:rotate(45deg);
+
+    background:#18b25c;
+
+    color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.faq-section{
+
+padding:80px 20px;
+
+}
+
+.faq-heading h2{
+
+font-size:34px;
+
+}
+
+.faq-question{
+
+font-size:17px;
+
+padding:22px;
+
+}
+
+}
+</style>
+<script>
+    /*=========================================
+            FAQ ACCORDION
+==========================================*/
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item=>{
+
+    const question = item.querySelector(".faq-question");
+
+    question.addEventListener("click",()=>{
+
+        faqItems.forEach(faq=>{
+
+            if(faq!==item){
+
+                faq.classList.remove("active");
+
+            }
+
+        });
+
+        item.classList.toggle("active");
+
+    });
+
+});
+</script>
+<!--=========================================
+            CALL TO ACTION
+==========================================-->
+
+<section class="services-cta">
+
+    <div class="cta-circle circle-one"></div>
+    <div class="cta-circle circle-two"></div>
+    <div class="cta-circle circle-three"></div>
+
+    <div class="cta-content">
+
+        <span class="cta-tag">
+            LET'S BUILD A HEALTHIER FUTURE
+        </span>
+
+        <h2>
+            Ready To Grow Your
+            <span>Pharmaceutical Business?</span>
+        </h2>
+
+        <p>
+            Whether you need Third Party Manufacturing, Contract Manufacturing,
+            Product Development or Distribution Support, Vitota Pharmaceuticals
+            is ready to become your trusted healthcare partner.
+        </p>
+
+        <div class="cta-buttons">
+
+            <a href="contact.html" class="cta-btn-primary">
+
+                Get Free Consultation
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+            <a href="about.html" class="cta-btn-secondary">
+
+                Learn More
+
+            </a>
+
+        </div>
+
+        <div class="cta-info">
+
+            <div class="cta-box">
+
+                <i class="fa-solid fa-award"></i>
+
+                <span>Premium Quality</span>
+
+            </div>
+
+            <div class="cta-box">
+
+                <i class="fa-solid fa-shield-heart"></i>
+
+                <span>Trusted Partner</span>
+
+            </div>
+
+            <div class="cta-box">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <span>Fast Delivery</span>
+
+            </div>
+
+            <div class="cta-box">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <span>24×7 Support</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<style>
+    /*=========================================
+            CTA SECTION
+==========================================*/
+
+.services-cta{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:120px 8%;
+
+    background:linear-gradient(135deg,#0d2d7a,#1145b5,#18b25c);
+
+    text-align:center;
+
+}
+
+.cta-content{
+
+    position:relative;
+
+    z-index:5;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.cta-tag{
+
+    display:inline-block;
+
+    padding:12px 26px;
+
+    background:rgba(255,255,255,.15);
+
+    color:#fff;
+
+    border-radius:40px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    backdrop-filter:blur(15px);
+
+    margin-bottom:30px;
+
+}
+
+.services-cta h2{
+
+    color:#fff;
+
+    font-size:56px;
+
+    line-height:1.25;
+
+    margin-bottom:25px;
+
+}
+
+.services-cta h2 span{
+
+    color:#7dffb0;
+
+}
+
+.services-cta p{
+
+    color:#eef5ff;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    max-width:720px;
+
+    margin:auto;
+
+    margin-bottom:45px;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:60px;
+
+}
+
+.cta-btn-primary{
+
+    text-decoration:none;
+
+    background:#fff;
+
+    color:#0d2d7a;
+
+    padding:18px 38px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    transition:.4s;
+
+}
+
+.cta-btn-primary:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+
+}
+
+.cta-btn-primary i{
+
+    margin-left:10px;
+
+}
+
+.cta-btn-secondary{
+
+    text-decoration:none;
+
+    border:2px solid rgba(255,255,255,.5);
+
+    color:#fff;
+
+    padding:18px 38px;
+
+    border-radius:50px;
+
+    transition:.4s;
+
+    font-weight:700;
+
+}
+
+.cta-btn-secondary:hover{
+
+    background:#fff;
+
+    color:#0d2d7a;
+
+}
+
+.cta-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+.cta-box{
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    color:#fff;
+
+    transition:.4s;
+
+}
+
+.cta-box:hover{
+
+    transform:translateY(-10px);
+
+    background:rgba(255,255,255,.22);
+
+}
+
+.cta-box i{
+
+    font-size:32px;
+
+    margin-bottom:15px;
+
+    color:#7dffb0;
+
+}
+
+.cta-box span{
+
+    display:block;
+
+    font-weight:600;
+
+}
+
+/* Floating Background */
+
+.cta-circle{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    animation:floatCircle 8s infinite alternate;
+
+}
+
+.circle-one{
+
+    width:350px;
+
+    height:350px;
+
+    left:-100px;
+
+    top:-80px;
+
+}
+
+.circle-two{
+
+    width:250px;
+
+    height:250px;
+
+    right:-60px;
+
+    bottom:60px;
+
+}
+
+.circle-three{
+
+    width:180px;
+
+    height:180px;
+
+    left:45%;
+
+    bottom:-60px;
+
+}
+
+@keyframes floatCircle{
+
+    from{
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        transform:scale(1.2) translateY(-20px);
+
+    }
+
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+.cta-info{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.services-cta h2{
+
+font-size:42px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.services-cta{
+
+padding:80px 20px;
+
+}
+
+.services-cta h2{
+
+font-size:30px;
+
+}
+
+.services-cta p{
+
+font-size:16px;
+
+}
+
+.cta-info{
+
+grid-template-columns:1fr;
+
+}
+
+.cta-btn-primary,
+
+.cta-btn-secondary{
+
+width:100%;
+
+text-align:center;
+
+}
+
+}
+</style>
+<!--=========================================
+        SCROLL TO TOP
+==========================================-->
+
+<button id="scrollTop">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+<style>
+    /*=========================================
+        FINAL PREMIUM EFFECTS
+==========================================*/
+
+/* Smooth Scroll */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+/* Scroll Top */
+
+#scrollTop{
+
+position:fixed;
+
+right:30px;
+
+bottom:30px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+outline:none;
+
+cursor:pointer;
+
+border-radius:50%;
+
+background:linear-gradient(135deg,#0d2d7a,#19b45b);
+
+color:#fff;
+
+font-size:20px;
+
+z-index:9999;
+
+opacity:0;
+
+visibility:hidden;
+
+transition:.4s;
+
+box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+#scrollTop:hover{
+
+transform:translateY(-8px) rotate(360deg);
+
+}
+
+#scrollTop.show{
+
+opacity:1;
+
+visibility:visible;
+
+}
+
+/* Section Animation */
+
+.reveal{
+
+opacity:0;
+
+transform:translateY(80px);
+
+transition:1s;
+
+}
+
+.reveal.active{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+/* Image Hover */
+
+img{
+
+transition:.5s;
+
+}
+
+img:hover{
+
+transform:scale(1.02);
+
+}
+
+/* Button Animation */
+
+a{
+
+transition:.4s;
+
+}
+
+/* Card Hover */
+
+.service-card,
+.category-card,
+.process-card,
+.industry-card,
+.why-card,
+.counter-box,
+.third-feature,
+.faq-item{
+
+transition:.4s;
+
+}
+
+/* Selection */
+
+::selection{
+
+background:#19b45b;
+
+color:#fff;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#edf3ff;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#0d2d7a;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#19b45b;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+#scrollTop{
+
+right:18px;
+
+bottom:18px;
+
+width:48px;
+
+height:48px;
+
+font-size:18px;
+
+}
+
+}
+</style>
+<script>
+    /*=========================================
+        SCROLL TOP
+==========================================*/
+
+const scrollBtn=document.getElementById("scrollTop");
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>400){
+
+scrollBtn.classList.add("show");
+
+}else{
+
+scrollBtn.classList.remove("show");
+
+}
+
+});
+
+scrollBtn.addEventListener("click",()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+});
+
+/*=========================================
+        SCROLL REVEAL
+==========================================*/
+
+const reveals=document.querySelectorAll(
+
+"section"
+
+);
+
+function revealSection(){
+
+reveals.forEach(section=>{
+
+const top=section.getBoundingClientRect().top;
+
+const windowHeight=window.innerHeight;
+
+if(top<windowHeight-120){
+
+section.classList.add("active");
+
+section.classList.add("reveal");
+
+}
+
+});
+
+}
+
+window.addEventListener("scroll",revealSection);
+
+revealSection();
+</script>
+<!-- ======================================================
+                    FOOTER START
+======================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!--======================
+            COLUMN 1
+        =======================-->
+
+        <div class="footer-col company">
+
+            <div class="footer-logo">
+
+               <!-- <img src="vitotalogo final.png" alt="Vitota Logo">-->
+
+            </div>
+
+            <p class="footer-text">
+            
+
+                Vitota Pharmaceuticals is committed to delivering
+                high-quality pharmaceutical products with innovation,
+                trust and excellence.
+
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+
+
+        <!--======================
+            COLUMN 2
+        =======================-->
+
+        <div class="footer-col">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="explore our product.html">Products</a></li>
+
+                <li><a href="our services.html">Services</a></li>
+
+                <li><a href="Quality page.html">Quality</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--======================
+            COLUMN 3
+        =======================-->
+
+        <div class="footer-col">
+
+            <h3>Our Products</h3>
+
+            <ul>
+
+                <li><a href="#">Tablets</a></li>
+
+                <li><a href="#">Capsules</a></li>
+
+                <li><a href="#">Syrups</a></li>
+
+                <li><a href="#">Injectables</a></li>
+
+                <li><a href="#">Ointments</a></li>
+
+                <li><a href="#">Nutraceuticals</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--======================
+            COLUMN 4
+        =======================-->
+
+        <div class="footer-col">
+
+            <h3>Contact Us</h3>
+
+            <ul class="contact-list">
+
+                <li>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Bhopal, Madhya Pradesh, India
+
+                </li>
+
+                <li>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    +91 XXXXX XXXXX
+
+                </li>
+
+                <li>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    shahmir.official9@gmail.com
+
+                </li>
+
+                <li>
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    Mon - Sat : 9:00 AM - 6:00 PM
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+    <!--======================
+        FOOTER BOTTOM
+    =======================-->
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 Vitota Pharmaceuticals.
+            All Rights Reserved. <br> Digital Partner: Vitota Technologies
+        </p>
+        
+        <div class="footer-links">
+        
+            <a href="#">Privacy Policy</a>
+
+            <a href="#">Terms & Conditions</a>
+
+            <a href="#">Disclaimer</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ======================================================
+                    FOOTER END
+======================================================= -->
+<style>
+    /*======================================================
+                    FOOTER CSS
+======================================================*/
+
+.footer{
+
+    background:#062a6d;
+
+    color:#fff;
+
+    padding:80px 8% 0;
+
+    position:relative;
+
+}
+
+.footer::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:4px;
+
+    background:linear-gradient(90deg,#00d26a,#0bb8ff);
+
+}
+
+.footer-container{
+
+    display:grid;
+
+    grid-template-columns:1.5fr 1fr 1fr 1.2fr;
+
+    gap:60px;
+
+    padding-bottom:60px;
+
+}
+
+.footer-logo img{
+
+    width:180px;
+
+    margin-bottom:25px;
+
+}
+
+.footer-text{
+
+    color:#d6e2ff;
+
+    line-height:1.9;
+
+    font-size:16px;
+
+    margin-bottom:30px;
+
+}
+
+.footer-col h3{
+
+    font-size:24px;
+
+    margin-bottom:28px;
+
+    color:#fff;
+
+    position:relative;
+
+}
+
+.footer-col h3::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-10px;
+
+    width:55px;
+
+    height:3px;
+
+    background:#18d26b;
+
+    border-radius:20px;
+
+}
+
+.footer-col ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.footer-col ul li{
+
+    margin-bottom:18px;
+
+}
+
+.footer-col ul li a{
+
+    color:#d6e2ff;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+    display:inline-block;
+
+}
+
+.footer-col ul li a:hover{
+
+    color:#18d26b;
+
+    transform:translateX(8px);
+
+}
+
+.contact-list li{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:15px;
+
+    color:#d6e2ff;
+
+    line-height:1.8;
+
+}
+
+.contact-list i{
+
+    color:#18d26b;
+
+    font-size:18px;
+
+    min-width:20px;
+
+    margin-top:4px;
+
+}
+
+
+/*============================
+        SOCIAL ICONS
+=============================*/
+
+.social-icons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:15px;
+
+}
+
+.social-icons a{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(255,255,255,.08);
+
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.social-icons a:hover{
+
+    background:#18d26b;
+
+    transform:translateY(-8px);
+
+}
+
+
+/*============================
+      FOOTER BOTTOM
+=============================*/
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    padding:25px 0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.footer-bottom p{
+
+    color:#d6e2ff;
+
+    margin:0;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.footer-links a{
+
+    color:#d6e2ff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:#18d26b;
+
+}
+
+
+/*============================
+        RESPONSIVE
+=============================*/
+
+@media(max-width:1100px){
+
+.footer-container{
+
+grid-template-columns:1fr 1fr;
+
+gap:50px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.footer{
+
+padding:60px 25px 0;
+
+}
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.footer-links{
+
+justify-content:center;
+
+}
+
+.footer-col{
+
+text-align:center;
+
+}
+
+.footer-col h3::after{
+
+left:50%;
+
+transform:translateX(-50%);
+
+}
+
+.contact-list li{
+
+justify-content:center;
+
+}
+
+.social-icons{
+
+justify-content:center;
+
+}
+
+}
+</style>
+
+
+<style>
+    /*======================================================
+        PREMIUM FOOTER EFFECTS
+======================================================*/
+
+/* Animated Background Glow */
+
+.footer{
+
+    overflow:hidden;
+
+}
+
+.footer::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:650px;
+
+    height:650px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,
+    rgba(24,210,107,.18),
+    transparent 70%);
+
+    top:-220px;
+
+    right:-220px;
+
+    animation:glowMove 10s ease-in-out infinite;
+
+    pointer-events:none;
+
+}
+
+@keyframes glowMove{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.15);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+
+/* Floating Circles */
+
+.footer-container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.footer .shape{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.05);
+
+    animation:float 8s ease-in-out infinite;
+
+}
+
+.footer .shape1{
+
+    width:90px;
+
+    height:90px;
+
+    left:5%;
+
+    top:15%;
+
+}
+
+.footer .shape2{
+
+    width:60px;
+
+    height:60px;
+
+    right:8%;
+
+    top:25%;
+
+    animation-delay:2s;
+
+}
+
+.footer .shape3{
+
+    width:120px;
+
+    height:120px;
+
+    left:45%;
+
+    bottom:8%;
+
+    animation-delay:4s;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-20px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+
+
+/* World Map Effect */
+
+.footer-map{
+
+    position:absolute;
+
+    inset:0;
+
+    background:url("images/world-map.png") center center/70% no-repeat;
+
+    opacity:.05;
+
+    pointer-events:none;
+
+}
+
+
+
+/* Hover Effect */
+
+.footer-col{
+
+    transition:.35s;
+
+}
+
+.footer-col:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+/* Copyright */
+
+.footer-bottom{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+
+/* Top Border Glow */
+
+.footer::before{
+
+    box-shadow:0 0 25px rgba(24,210,107,.8);
+
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
