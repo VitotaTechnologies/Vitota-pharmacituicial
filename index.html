@@ -4852,196 +4852,140 @@ line-height:1.8;
 font-size:clamp(30px,4vw,55px);
 }
 </style>
-/* ===========================
-   MOBILE RESPONSIVE CSS
-=========================== */
 <style>
+/* Mobile */
 
-@media (max-width: 991px){
+@media(max-width:991px){
 
-    section{
-        padding:60px 0;
-    }
+.hero{
+padding:70px 0;
+text-align:center;
+}
 
-    .hero{
-        padding:50px 0;
-    }
+.hero-box{
+margin-top:40px;
+}
 
-    .hero .row{
-        flex-direction:column-reverse;
-        text-align:center;
-        gap:30px;
-    }
+.about,
+.products,
+.services,
+.quality,
+.partner,
+.contact,
+.newsletter,
+.certifications,
+.testimonials,
+.faq{
 
-    .hero-content{
-        padding:0;
-    }
+padding:70px 0;
+}
 
-    .hero h1{
-        font-size:42px;
-        line-height:1.2;
-    }
+.navbar-brand{
+font-size:28px;
+}
 
-    .hero p{
-        font-size:15px;
-    }
+.company-logo{
+max-width:85px;
+}
 
-    .hero-buttons{
-        display:flex;
-        justify-content:center;
-        flex-wrap:wrap;
-        gap:12px;
-    }
+.btn-main,
+.btn-outline-main{
+display:inline-block;
+margin:8px;
+}
 
-    .hero-box{
-        max-width:380px;
-        margin:auto;
-    }
+.hero-icon{
+width:90px;
+height:90px;
+}
 
-    .hero-box img{
-        width:100%;
-    }
-
-    .navbar-nav{
-        text-align:center;
-        padding-top:15px;
-    }
-
-    .navbar .btn{
-        width:100%;
-        margin-top:15px;
-    }
+.hero-icon i{
+font-size:45px;
+}
 
 }
 
-/* ===========================
-   TABLET & MOBILE
-=========================== */
+@media(max-width:768px){
 
-@media (max-width:768px){
+.hero h1{
+font-size:38px;
+}
 
-    .container{
-        padding-left:20px;
-        padding-right:20px;
-    }
+.hero h2{
+font-size:28px;
+}
 
-    h1{
-        font-size:36px;
-    }
+.hero p{
+font-size:15px;
+}
 
-    h2{
-        font-size:30px;
-    }
+.stat-card h2{
+font-size:38px;
+}
 
-    h3{
-        font-size:24px;
-    }
-
-    p{
-        font-size:15px;
-    }
-
-    /* Stats */
-
-    .stats .row{
-        row-gap:20px;
-    }
-
-    .stats .col-lg-3,
-    .stats .col-md-3,
-    .stats .col-6{
-        width:50%;
-    }
-
-    /* About */
-
-    .about .row{
-        gap:30px;
-    }
-
-    .about-card{
-        margin-bottom:20px;
-    }
-
-    /* Products */
-
-    .product-card{
-        margin-bottom:25px;
-    }
-
-    /* Services */
-
-    .service-card{
-        margin-bottom:25px;
-    }
-
-    /* Contact */
-
-    .contact .row{
-        gap:25px;
-    }
+.product-card,
+.service-card,
+.about-card{
+padding:25px;
+}
 
 }
 
-/* ===========================
-   PHONE
-=========================== */
+@media(max-width:480px){
 
-@media (max-width:576px){
+.navbar-brand{
+font-size:22px;
+}
 
-    .hero{
-        padding:40px 0;
-    }
+.hero{
+padding:60px 0;
+}
 
-    .hero h1{
-        font-size:30px;
-    }
+.hero-box{
+padding:25px;
+}
 
-    .hero h2{
-        font-size:22px;
-    }
+.section-title{
+font-size:28px;
+}
 
-    .hero p{
-        font-size:14px;
-    }
+.btn-main,
+.btn-outline-main{
+width:100%;
+text-align:center;
+margin:8px 0;
+}
 
-    .section-title{
-        font-size:28px;
-    }
+.partner-box{
+padding:30px;
+}
 
-    .btn-main,
-    .btn-outline-main{
-        width:100%;
-        margin:8px 0;
-    }
+.news-btn{
+margin-top:15px;
+}
 
-    .hero-box{
-        padding:20px;
-    }
+}
 
-    .hero-icon{
-        width:70px;
-        height:70px;
-    }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
 
-    .hero-icon i{
-        font-size:34px;
-    }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .stats .col-lg-3,
-    .stats .col-md-3,
-    .stats .col-6{
-        width:100%;
-    }
-
-    .product-card,
-    .service-card,
-    .about-card{
-        padding:20px;
-    }
-
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 </style>
+
+
+
 <!-- ===================================== -->
 <!-- PART 15 END -->
 <!-- ===================================== -->
