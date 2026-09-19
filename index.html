@@ -332,9 +332,9 @@ color:rgb(123, 204, 154);
 </div>
 <div id="sideMenu" class="side-menu">
 
-    <span class="close-btn" onclick="closeMenu()"></span>
+    <span class="close-btn" onclick="closeMenu()">&times;</span>
 
-    <a href="VITOTA HOME PAGE FINAL.html">HOME</a>
+    <a href="index.html">HOME</a>
     <a href="ABOUT.HTML">ABOUT</a>
     <a href="explore our product.html">PRODUCTS</a>
     <a href="our service.html">SERVICES</a>
@@ -344,17 +344,34 @@ color:rgb(123, 204, 154);
 
 </div>
 <style>.menu-toggle{
-    font-size:25px;
-    color:#84b5f8;
+    display:none;
+    width:44px;
+    height:44px;
+    border:1px solid rgba(3,43,105,.18);
+    border-radius:10px;
+    background:#fff;
+    color:#032B69;
     cursor:pointer;
-    font-weight:bold;
+    font-size:0;
+    font-weight:800;
+    line-height:1;
+    align-items:center;
+    justify-content:center;
+    flex:0 0 auto;
+    z-index:100001;
+}
+
+.menu-toggle::before{
+    content:"\2630";
+    font-size:28px;
 }
 
 .side-menu{
     position:fixed;
     top:0;
-    left:-300px;
+    left:-100vw;
     width:280px;
+    max-width:calc(100vw - 48px);
     height:100%;
     background:#032B69;
     z-index:99999;
@@ -391,7 +408,7 @@ function openMenu(){
 }
 
 function closeMenu(){
-    document.getElementById("sideMenu").style.left="-300px";
+    document.getElementById("sideMenu").style.left="-100vw";
 }
 
 </script>
@@ -461,7 +478,7 @@ data-bs-target="#menu">
 </li>-->
 
 <li class="nav-item">
-<a href="#" class="btn-all-main">HOME</a>
+<a href="index.html" class="btn-all-main">HOME</a>
 </li>
 
 
@@ -516,11 +533,13 @@ WELCOME TO VITOTA PHARMACEUTICALS
 <h2>
 
  Advancing Healthcare,
- <h1>
+
+</h2>
+
+<h1>
 
  Enriching Lives.
 
-</h2>
 </h1>
 
 <p class="mt-4">
@@ -3132,7 +3151,7 @@ Bengaluru, Karnataka, India</B><br>
     <p align="center">
     © 2026 VITOTA PHARMACEUTICALS. All Rights Reserved.
     <BR>
-         Digital Partner : <a href="images/amir and madhuri pic.jpg">Vitota Technologies </a><BR>
+       <a href="index.html" class="devloper-section">   Digital Partner : Vitota Technologies</a>
             <a href="https://vitotatechnologies.github.io/VITOTA-TECHNOLOGY-SHAHMIR-HUSSAIN/" class="devloper-section"> Devloper :-Shahmir hussain </a>
          
 </div></p>
@@ -3320,9 +3339,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
 
 anchor.addEventListener("click",function(e){
 
+const hash=this.getAttribute("href");
+
+if(!hash || hash==="#"){
+
 e.preventDefault();
 
-document.querySelector(this.getAttribute("href")).scrollIntoView({
+return;
+
+}
+
+const target=document.querySelector(hash);
+
+if(!target){
+
+return;
+
+}
+
+e.preventDefault();
+
+target.scrollIntoView({
 
 behavior:"smooth"
 
@@ -5092,6 +5129,237 @@ margin-top:15px;
         flex-direction: row;
     }
 
+}
+</style>
+
+<style>
+/* FINAL MOBILE RESPONSIVE FIX */
+
+@media (max-width: 1199.98px) {
+    .marquee-box {
+        width: 100%;
+        padding: 4px 12px;
+    }
+
+    .marquee-text {
+        font-size: 13px;
+    }
+
+    .navbar {
+        padding: 8px 0 !important;
+        overflow: visible;
+    }
+
+    .navbar .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 72px;
+        padding-right: 14px;
+        min-height: 70px;
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: flex !important;
+        position: fixed;
+        top: 34px;
+        left: 14px;
+        box-shadow: 0 8px 24px rgba(3,43,105,.16);
+    }
+
+    .navbar-toggler,
+    .navbar-collapse {
+        display: none !important;
+    }
+
+    .font-text {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .logo {
+        justify-content: center;
+        gap: 10px !important;
+        min-width: 0;
+    }
+
+    .company-logo {
+        width: 78px !important;
+        height: 58px !important;
+        margin: 0 !important;
+        flex: 0 0 auto;
+    }
+
+    .navbar-brand {
+        margin: 0 !important;
+        font-size: 25px !important;
+        line-height: 1.05;
+        white-space: normal;
+    }
+
+    .navbar-brand h6 {
+        font-size: 11px !important;
+        letter-spacing: .8px !important;
+        margin-top: 4px !important;
+    }
+
+    .side-menu {
+        width: min(82vw, 300px);
+        padding-top: 72px;
+        z-index: 100002;
+    }
+
+    .side-menu a {
+        font-size: 16px;
+        padding: 16px 24px;
+    }
+
+    .close-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        right: 14px;
+        z-index: 100003;
+    }
+
+    .nav-hide {
+        transform: none !important;
+    }
+
+    .hero {
+        padding: 56px 0 48px !important;
+        text-align: center;
+    }
+
+    .hero .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .hero .row {
+        gap: 28px;
+    }
+
+    .hero h4 {
+        font-size: clamp(15px, 4vw, 19px) !important;
+        line-height: 1.35 !important;
+        letter-spacing: .5px;
+    }
+
+    .hero h2 {
+        font-size: clamp(26px, 7vw, 38px) !important;
+        line-height: 1.2 !important;
+        margin: 12px 0 0 !important;
+    }
+
+    .hero h1 {
+        font-size: clamp(38px, 12vw, 56px) !important;
+        line-height: 1.06 !important;
+        margin: 8px 0 0 !important;
+        word-break: normal;
+    }
+
+    .hero p {
+        font-size: 15px !important;
+        line-height: 1.7 !important;
+        max-width: 36rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero .mt-5 {
+        display: grid;
+        gap: 12px;
+        margin-top: 28px !important;
+    }
+
+    .hero .btn-main,
+    .hero .btn-outline-main {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto !important;
+        padding: 13px 18px !important;
+        text-align: center;
+    }
+
+    .hero-box {
+        margin-top: 0 !important;
+        padding: 24px 16px !important;
+        border-radius: 20px !important;
+    }
+
+    .hero-icon {
+        width: 76px !important;
+        height: 76px !important;
+    }
+
+    .hero-icon i {
+        font-size: 36px !important;
+    }
+
+    .contact-bar,
+    .scroll-circle,
+    .float-menu,
+    .live-clock,
+    .cursor-ring {
+        display: none !important;
+    }
+
+    .whatsapp,
+    .top-btn {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar .container {
+        justify-content: flex-start;
+        padding-left: 66px;
+        min-height: 64px;
+    }
+
+    .menu-toggle {
+        top: 31px;
+        left: 12px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo {
+        justify-content: flex-start;
+        gap: 8px !important;
+    }
+
+    .company-logo {
+        width: 64px !important;
+        height: 50px !important;
+    }
+
+    .navbar-brand {
+        font-size: 21px !important;
+    }
+
+    .navbar-brand h6 {
+        font-size: 9.5px !important;
+        letter-spacing: .6px !important;
+    }
+
+    .hero {
+        padding-top: 44px !important;
+    }
+
+    .hero h1 {
+        font-size: clamp(36px, 13vw, 46px) !important;
+    }
+
+    .hero h2 {
+        font-size: clamp(24px, 8vw, 31px) !important;
+    }
 }
 </style>
 
